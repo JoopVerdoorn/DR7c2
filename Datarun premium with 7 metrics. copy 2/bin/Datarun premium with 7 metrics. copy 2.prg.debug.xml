@@ -1,463 +1,463 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="3" lineNum="4" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="3" lineNum="5" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="4" lineNum="9" pc="268435479" symbol="getInitialView"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="4" lineNum="10" pc="268435483" symbol="getInitialView"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="110" pc="268435521" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="111" pc="268435525" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="113" pc="268435543" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="114" pc="268435562" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="115" pc="268435592" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="116" pc="268435622" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="117" pc="268435652" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="118" pc="268435682" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="119" pc="268435712" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="120" pc="268435742" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="121" pc="268435772" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="122" pc="268435796" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="123" pc="268435820" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="124" pc="268435844" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="125" pc="268435862" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="126" pc="268435886" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="127" pc="268435910" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="128" pc="268435934" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="129" pc="268435958" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="130" pc="268435982" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="132" pc="268436018" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="133" pc="268436059" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="136" pc="268436075" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="137" pc="268436116" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="139" pc="268436132" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="142" pc="268436163" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="143" pc="268436198" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="144" pc="268436229" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="145" pc="268436250" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="146" pc="268436276" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="147" pc="268436315" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="148" pc="268436337" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="149" pc="268436386" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="151" pc="268436436" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="152" pc="268436478" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="153" pc="268436556" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="154" pc="268436606" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="155" pc="268436634" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="7" lineNum="159" pc="268436687" symbol="onTimerStart"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="7" lineNum="160" pc="268436691" symbol="onTimerStart"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="7" lineNum="161" pc="268436703" symbol="onTimerStart"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="8" lineNum="166" pc="268436714" symbol="onTimerStop"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="8" lineNum="167" pc="268436718" symbol="onTimerStop"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="8" lineNum="168" pc="268436730" symbol="onTimerStop"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="9" lineNum="173" pc="268436741" symbol="onTimerResume"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="9" lineNum="174" pc="268436745" symbol="onTimerResume"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="10" lineNum="179" pc="268436756" symbol="onTimerPause"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="10" lineNum="180" pc="268436760" symbol="onTimerPause"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="185" pc="268436771" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="186" pc="268436775" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="187" pc="268436794" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="188" pc="268436797" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="189" pc="268436834" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="191" pc="268436856" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="192" pc="268436877" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="194" pc="268436897" symbol="startStopPushed"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="198" pc="268436935" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="200" pc="268436939" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="202" pc="268436958" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="203" pc="268436983" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="205" pc="268437002" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="206" pc="268437069" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="207" pc="268437130" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="210" pc="268437197" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="213" pc="268437222" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="214" pc="268437235" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="215" pc="268437248" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="219" pc="268437276" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="220" pc="268437313" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="222" pc="268437341" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="223" pc="268437378" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="227" pc="268437406" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="228" pc="268437419" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="229" pc="268437432" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="231" pc="268437451" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="233" pc="268437468" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="234" pc="268437481" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="235" pc="268437497" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="236" pc="268437513" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="237" pc="268437529" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="238" pc="268437545" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="240" pc="268437564" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="241" pc="268437580" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="242" pc="268437596" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="243" pc="268437612" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="244" pc="268437628" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="246" pc="268437641" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="247" pc="268437810" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="248" pc="268437943" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="253" pc="268438031" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="254" pc="268438060" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="255" pc="268438089" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="256" pc="268438118" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="257" pc="268438131" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="258" pc="268438144" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="259" pc="268438157" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="262" pc="268438185" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="263" pc="268438192" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="264" pc="268438210" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="265" pc="268438230" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="266" pc="268438249" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="267" pc="268438265" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="268" pc="268438284" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="269" pc="268438304" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="270" pc="268438323" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="271" pc="268438339" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="272" pc="268438358" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="273" pc="268438378" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="274" pc="268438397" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="275" pc="268438413" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="276" pc="268438432" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="277" pc="268438452" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="278" pc="268438480" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="279" pc="268438496" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="280" pc="268438515" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="281" pc="268438535" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="282" pc="268438584" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="283" pc="268438600" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="284" pc="268438619" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="285" pc="268438639" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="286" pc="268438667" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="287" pc="268438683" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="288" pc="268438702" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="289" pc="268438722" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="290" pc="268438750" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="291" pc="268438766" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="292" pc="268438785" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="293" pc="268438805" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="294" pc="268438863" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="295" pc="268438879" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="296" pc="268438898" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="297" pc="268438918" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="298" pc="268438937" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="299" pc="268438953" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="300" pc="268438972" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="301" pc="268438992" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="302" pc="268439011" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="303" pc="268439027" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="304" pc="268439046" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="305" pc="268439066" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="306" pc="268439085" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="307" pc="268439101" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="308" pc="268439120" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="309" pc="268439140" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="310" pc="268439159" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="311" pc="268439175" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="312" pc="268439194" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="313" pc="268439214" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="314" pc="268439233" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="315" pc="268439249" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="316" pc="268439268" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="317" pc="268439288" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="318" pc="268439328" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="319" pc="268439344" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="320" pc="268439363" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="321" pc="268439383" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="322" pc="268439399" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="323" pc="268439415" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="324" pc="268439474" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="326" pc="268439526" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="327" pc="268439546" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="328" pc="268439607" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="329" pc="268439623" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="330" pc="268439642" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="331" pc="268439662" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="332" pc="268439765" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="333" pc="268439781" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="334" pc="268439800" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="335" pc="268439820" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="336" pc="268439881" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="337" pc="268439897" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="338" pc="268439916" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="339" pc="268439936" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="340" pc="268439997" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="341" pc="268440013" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="342" pc="268440032" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="343" pc="268440052" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="344" pc="268440113" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="345" pc="268440129" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="346" pc="268440148" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="347" pc="268440168" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="348" pc="268440187" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="349" pc="268440203" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="350" pc="268440222" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="351" pc="268440242" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="352" pc="268440261" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="353" pc="268440277" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="354" pc="268440296" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="355" pc="268440316" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="356" pc="268440335" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="357" pc="268440351" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="358" pc="268440370" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="359" pc="268440390" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="360" pc="268440430" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="361" pc="268440446" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="362" pc="268440465" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="363" pc="268440485" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="364" pc="268440525" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="365" pc="268440584" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="366" pc="268440600" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="367" pc="268440619" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="368" pc="268440639" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="369" pc="268440679" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="370" pc="268440695" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="376" pc="268440728" symbol="hashfunction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="377" pc="268440732" symbol="hashfunction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="378" pc="268440739" symbol="hashfunction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="379" pc="268440752" symbol="hashfunction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="380" pc="268440776" symbol="hashfunction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="382" pc="268440805" symbol="hashfunction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="15" lineNum="5" pc="268440819" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="15" lineNum="6" pc="268440823" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="10" pc="268440842" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="12" pc="268440846" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="13" pc="268440857" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="16" pc="268440880" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="17" pc="268440891" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="19" pc="268440913" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="20" pc="268440959" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="22" pc="268441008" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="16" lineNum="23" pc="268441054" symbol="compute"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="17" lineNum="28" pc="268441107" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="17" lineNum="29" pc="268441111" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="18" lineNum="33" pc="268441124" symbol="onWorkoutStepComplete"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="18" lineNum="34" pc="268441128" symbol="onWorkoutStepComplete"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="37" pc="268441141" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="39" pc="268441145" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="42" pc="268441165" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="43" pc="268441233" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="44" pc="268441255" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="45" pc="268441323" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="48" pc="268441358" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="49" pc="268441362" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="50" pc="268441372" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="51" pc="268441372" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="52" pc="268441395" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="53" pc="268441418" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="54" pc="268441441" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="55" pc="268441464" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="56" pc="268441487" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="57" pc="268441510" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="58" pc="268441533" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="59" pc="268441546" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="60" pc="268441559" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="61" pc="268441572" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="62" pc="268441585" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="63" pc="268441598" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="64" pc="268441611" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="66" pc="268441624" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="67" pc="268441646" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="68" pc="268441667" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="69" pc="268441689" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="70" pc="268441722" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="71" pc="268441729" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="72" pc="268441768" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="73" pc="268441779" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="76" pc="268441792" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="77" pc="268441803" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="80" pc="268441813" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="81" pc="268441831" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="82" pc="268441853" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="83" pc="268441894" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="84" pc="268441967" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="85" pc="268441989" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="86" pc="268442010" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="87" pc="268442027" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="88" pc="268442052" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="89" pc="268442069" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="90" pc="268442094" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="91" pc="268442111" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="93" pc="268442127" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="94" pc="268442149" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="95" pc="268442181" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="98" pc="268442249" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="100" pc="268442283" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="101" pc="268442305" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="102" pc="268442358" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="103" pc="268442382" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="104" pc="268442415" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="106" pc="268442419" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="107" pc="268442430" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="108" pc="268442454" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="109" pc="268442458" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="110" pc="268442519" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="112" pc="268442561" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="115" pc="268442628" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="117" pc="268442689" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="118" pc="268442750" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="119" pc="268442760" symbol="Formatting"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="122" pc="268442795" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="123" pc="268442799" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="124" pc="268442818" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="125" pc="268442843" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="126" pc="268442889" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="127" pc="268442926" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="129" pc="268442942" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="130" pc="268442967" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="131" pc="268443013" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="132" pc="268443029" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="134" pc="268443045" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="135" pc="268443070" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="136" pc="268443116" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="137" pc="268443132" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="139" pc="268443148" symbol="Lapaction"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="23" lineNum="21" pc="268443168" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="23" lineNum="22" pc="268443172" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="23" lineNum="23" pc="268443190" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="23" lineNum="24" pc="268443209" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="23" lineNum="25" pc="268443233" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="23" lineNum="26" pc="268443257" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="30" pc="268443282" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="31" pc="268443286" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="32" pc="268443299" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="33" pc="268443312" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="34" pc="268443325" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="35" pc="268443338" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="36" pc="268443351" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="37" pc="268443364" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="38" pc="268443377" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="39" pc="268443390" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="40" pc="268443403" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="41" pc="268443416" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="42" pc="268443429" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="24" lineNum="43" pc="268443442" symbol="onTimerReset"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="46" pc="268443456" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="48" pc="268443460" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="51" pc="268443480" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="52" pc="268443499" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="55" pc="268443524" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="57" pc="268443543" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="58" pc="268443610" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="59" pc="268443671" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="62" pc="268443738" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="63" pc="268443745" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="64" pc="268443752" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="65" pc="268443781" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="67" pc="268443794" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="68" pc="268443805" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="70" pc="268443816" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="71" pc="268443829" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="73" pc="268443848" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="75" pc="268443861" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="76" pc="268443877" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="77" pc="268443893" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="83" pc="268443933" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="84" pc="268443962" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="85" pc="268443991" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="86" pc="268444004" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="87" pc="268444017" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="94" pc="268444071" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="95" pc="268444084" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="97" pc="268444103" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="98" pc="268444143" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="99" pc="268444165" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="100" pc="268444173" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="101" pc="268444186" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="102" pc="268444206" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="103" pc="268444232" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="104" pc="268444246" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="106" pc="268444281" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="108" pc="268444300" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="109" pc="268444308" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="110" pc="268444321" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="112" pc="268444341" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="113" pc="268444355" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="115" pc="268444390" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="116" pc="268444416" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="122" pc="268444441" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="123" pc="268444448" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="124" pc="268444466" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="125" pc="268444486" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="126" pc="268444526" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="127" pc="268444542" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="128" pc="268444561" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="129" pc="268444581" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="130" pc="268444594" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="131" pc="268444610" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="132" pc="268444629" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="133" pc="268444649" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="134" pc="268444668" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="135" pc="268444684" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="136" pc="268444703" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="137" pc="268444723" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="138" pc="268444742" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="139" pc="268444758" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="140" pc="268444777" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="141" pc="268444797" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="142" pc="268444816" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="25" lineNum="143" pc="268444832" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="27" lineNum="7" pc="268444865" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="27" lineNum="8" pc="268444869" symbol="initialize"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="11" pc="268444888" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="13" pc="268444892" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="16" pc="268444912" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="17" pc="268444926" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="18" pc="268444960" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="23" pc="268444976" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="26" pc="268444990" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="27" pc="268445024" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="30" pc="268445041" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="31" pc="268445073" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="32" pc="268445105" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="35" pc="268445137" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="38" pc="268445169" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="39" pc="268445201" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="42" pc="268445233" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="45" pc="268445265" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="48" pc="268445297" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="51" pc="268445331" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="52" pc="268445348" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="53" pc="268445373" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="54" pc="268445426" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="57" pc="268445481" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="58" pc="268445499" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="59" pc="268445510" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="60" pc="268445567" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="61" pc="268445578" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="62" pc="268445635" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="63" pc="268445646" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="64" pc="268445703" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="65" pc="268445714" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="66" pc="268445771" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="67" pc="268445782" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="68" pc="268445839" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="69" pc="268445850" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="70" pc="268445907" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="71" pc="268445918" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="76" pc="268445988" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="77" pc="268446032" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="78" pc="268446060" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="79" pc="268446092" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="81" pc="268446124" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="82" pc="268446152" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="84" pc="268446184" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="85" pc="268446218" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="86" pc="268446240" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="87" pc="268446262" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="91" pc="268446291" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="93" pc="268446325" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="94" pc="268446339" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="95" pc="268446409" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="96" pc="268446488" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="97" pc="268446558" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="98" pc="268446628" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="100" pc="268446704" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="101" pc="268446774" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="102" pc="268446844" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="103" pc="268446914" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="104" pc="268446987" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="105" pc="268447057" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="106" pc="268447130" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="107" pc="268447200" symbol="onUpdate"/>
-<entry filename="C:\\Users\\joop\\git\\Datarun-premium-with-7-metrics-copy-2.git\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="28" lineNum="108" pc="268447273" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="3" lineNum="4" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="3" lineNum="5" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="4" lineNum="9" pc="268435479" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="4" lineNum="10" pc="268435483" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="110" pc="268435521" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="111" pc="268435525" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="113" pc="268435543" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="114" pc="268435562" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="115" pc="268435592" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="116" pc="268435622" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="117" pc="268435652" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="118" pc="268435682" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="119" pc="268435712" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="120" pc="268435742" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="121" pc="268435772" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="122" pc="268435796" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="123" pc="268435820" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="124" pc="268435844" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="125" pc="268435862" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="126" pc="268435886" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="127" pc="268435910" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="128" pc="268435934" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="129" pc="268435958" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="130" pc="268435982" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="132" pc="268436018" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="133" pc="268436059" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="136" pc="268436075" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="137" pc="268436116" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="139" pc="268436132" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="142" pc="268436163" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="143" pc="268436198" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="144" pc="268436229" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="145" pc="268436250" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="146" pc="268436276" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="147" pc="268436315" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="148" pc="268436337" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="149" pc="268436386" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="151" pc="268436436" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="152" pc="268436478" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="153" pc="268436556" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="154" pc="268436606" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="6" lineNum="155" pc="268436634" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="7" lineNum="159" pc="268436687" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="7" lineNum="160" pc="268436691" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="7" lineNum="161" pc="268436703" symbol="onTimerStart"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="8" lineNum="166" pc="268436714" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="8" lineNum="167" pc="268436718" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="8" lineNum="168" pc="268436730" symbol="onTimerStop"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="9" lineNum="173" pc="268436741" symbol="onTimerResume"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="9" lineNum="174" pc="268436745" symbol="onTimerResume"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="10" lineNum="179" pc="268436756" symbol="onTimerPause"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="10" lineNum="180" pc="268436760" symbol="onTimerPause"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="185" pc="268436771" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="186" pc="268436775" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="187" pc="268436794" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="188" pc="268436797" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="189" pc="268436834" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="191" pc="268436856" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="192" pc="268436877" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="11" lineNum="194" pc="268436897" symbol="startStopPushed"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="198" pc="268436935" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="200" pc="268436939" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="202" pc="268436958" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="203" pc="268436983" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="205" pc="268437002" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="206" pc="268437069" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="207" pc="268437130" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="210" pc="268437197" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="213" pc="268437222" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="214" pc="268437235" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="215" pc="268437248" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="219" pc="268437276" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="220" pc="268437313" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="222" pc="268437341" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="223" pc="268437378" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="227" pc="268437406" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="228" pc="268437419" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="229" pc="268437432" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="231" pc="268437451" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="233" pc="268437468" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="234" pc="268437481" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="235" pc="268437497" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="236" pc="268437513" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="237" pc="268437529" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="238" pc="268437545" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="240" pc="268437564" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="241" pc="268437580" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="242" pc="268437596" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="243" pc="268437612" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="244" pc="268437628" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="246" pc="268437641" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="247" pc="268437810" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="248" pc="268437943" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="253" pc="268438031" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="254" pc="268438060" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="255" pc="268438089" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="256" pc="268438118" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="257" pc="268438131" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="258" pc="268438144" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="259" pc="268438157" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="262" pc="268438185" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="263" pc="268438192" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="264" pc="268438210" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="265" pc="268438230" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="266" pc="268438249" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="267" pc="268438265" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="268" pc="268438284" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="269" pc="268438304" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="270" pc="268438323" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="271" pc="268438339" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="272" pc="268438358" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="273" pc="268438378" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="274" pc="268438397" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="275" pc="268438413" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="276" pc="268438432" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="277" pc="268438452" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="278" pc="268438480" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="279" pc="268438496" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="280" pc="268438515" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="281" pc="268438535" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="282" pc="268438584" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="283" pc="268438600" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="284" pc="268438619" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="285" pc="268438639" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="286" pc="268438667" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="287" pc="268438683" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="288" pc="268438702" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="289" pc="268438722" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="290" pc="268438750" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="291" pc="268438766" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="292" pc="268438785" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="293" pc="268438805" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="294" pc="268438863" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="295" pc="268438879" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="296" pc="268438898" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="297" pc="268438918" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="298" pc="268438937" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="299" pc="268438953" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="300" pc="268438972" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="301" pc="268438992" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="302" pc="268439011" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="303" pc="268439027" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="304" pc="268439046" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="305" pc="268439066" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="306" pc="268439085" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="307" pc="268439101" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="308" pc="268439120" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="309" pc="268439140" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="310" pc="268439159" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="311" pc="268439175" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="312" pc="268439194" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="313" pc="268439214" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="314" pc="268439233" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="315" pc="268439249" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="316" pc="268439268" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="317" pc="268439288" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="318" pc="268439328" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="319" pc="268439344" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="320" pc="268439363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="321" pc="268439383" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="322" pc="268439399" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="323" pc="268439415" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="324" pc="268439474" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="326" pc="268439526" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="327" pc="268439546" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="328" pc="268439607" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="329" pc="268439623" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="330" pc="268439642" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="331" pc="268439662" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="332" pc="268439765" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="333" pc="268439781" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="334" pc="268439800" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="335" pc="268439820" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="336" pc="268439881" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="337" pc="268439897" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="338" pc="268439916" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="339" pc="268439936" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="340" pc="268439997" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="341" pc="268440013" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="342" pc="268440032" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="343" pc="268440052" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="344" pc="268440113" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="345" pc="268440129" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="346" pc="268440148" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="347" pc="268440168" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="348" pc="268440187" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="349" pc="268440203" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="350" pc="268440222" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="351" pc="268440242" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="352" pc="268440261" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="353" pc="268440277" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="354" pc="268440296" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="355" pc="268440316" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="356" pc="268440335" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="357" pc="268440351" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="358" pc="268440370" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="359" pc="268440390" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="360" pc="268440430" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="361" pc="268440446" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="362" pc="268440465" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="363" pc="268440485" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="364" pc="268440525" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="365" pc="268440584" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="366" pc="268440600" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="367" pc="268440619" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="368" pc="268440639" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="369" pc="268440679" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="12" lineNum="370" pc="268440695" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="376" pc="268440728" symbol="hashfunction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="377" pc="268440732" symbol="hashfunction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="378" pc="268440739" symbol="hashfunction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="379" pc="268440752" symbol="hashfunction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="380" pc="268440776" symbol="hashfunction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source\\DatarunpremiumView.mc" id="13" lineNum="382" pc="268440805" symbol="hashfunction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="15" lineNum="7" pc="268440819" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="15" lineNum="8" pc="268440823" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="11" pc="268440842" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="13" pc="268440846" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="16" pc="268440866" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="17" pc="268440880" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="18" pc="268440914" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="23" pc="268440930" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="26" pc="268440944" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="27" pc="268440978" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="30" pc="268440995" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="31" pc="268441027" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="32" pc="268441059" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="35" pc="268441091" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="38" pc="268441123" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="39" pc="268441155" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="42" pc="268441187" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="45" pc="268441219" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="48" pc="268441251" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="51" pc="268441285" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="52" pc="268441302" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="53" pc="268441327" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="54" pc="268441380" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="57" pc="268441435" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="58" pc="268441453" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="59" pc="268441464" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="60" pc="268441521" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="61" pc="268441532" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="62" pc="268441589" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="63" pc="268441600" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="64" pc="268441657" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="65" pc="268441668" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="66" pc="268441725" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="67" pc="268441736" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="68" pc="268441793" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="69" pc="268441804" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="70" pc="268441861" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="71" pc="268441872" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="76" pc="268441942" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="77" pc="268441986" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="78" pc="268442014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="79" pc="268442046" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="81" pc="268442078" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="82" pc="268442106" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="84" pc="268442138" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="85" pc="268442172" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="86" pc="268442194" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="87" pc="268442216" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="91" pc="268442245" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="93" pc="268442279" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="94" pc="268442293" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="95" pc="268442363" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="96" pc="268442442" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="97" pc="268442512" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="98" pc="268442582" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="100" pc="268442658" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="101" pc="268442728" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="102" pc="268442798" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="103" pc="268442868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="104" pc="268442941" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="105" pc="268443011" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="106" pc="268443084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="107" pc="268443154" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-3-round-240x240\\round-240x240.mc" id="16" lineNum="108" pc="268443227" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="18" lineNum="5" pc="268443307" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="18" lineNum="6" pc="268443311" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="10" pc="268443330" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="12" pc="268443334" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="13" pc="268443345" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="16" pc="268443368" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="17" pc="268443379" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="19" pc="268443401" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="20" pc="268443447" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="22" pc="268443496" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="19" lineNum="23" pc="268443542" symbol="compute"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="28" pc="268443595" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="20" lineNum="29" pc="268443599" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="33" pc="268443612" symbol="onWorkoutStepComplete"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="21" lineNum="34" pc="268443616" symbol="onWorkoutStepComplete"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="22" lineNum="37" pc="268443629" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="22" lineNum="39" pc="268443633" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="22" lineNum="42" pc="268443653" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="22" lineNum="43" pc="268443721" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="22" lineNum="44" pc="268443743" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="22" lineNum="45" pc="268443811" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="48" pc="268443846" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="49" pc="268443850" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="50" pc="268443860" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="51" pc="268443860" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="52" pc="268443883" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="53" pc="268443906" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="54" pc="268443929" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="55" pc="268443952" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="56" pc="268443975" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="57" pc="268443998" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="58" pc="268444021" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="59" pc="268444034" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="60" pc="268444047" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="61" pc="268444060" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="62" pc="268444073" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="63" pc="268444086" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="64" pc="268444099" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="66" pc="268444112" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="67" pc="268444134" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="68" pc="268444155" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="69" pc="268444177" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="70" pc="268444210" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="71" pc="268444217" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="72" pc="268444256" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="73" pc="268444267" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="76" pc="268444280" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="77" pc="268444291" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="80" pc="268444301" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="81" pc="268444319" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="82" pc="268444341" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="83" pc="268444382" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="84" pc="268444455" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="85" pc="268444477" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="86" pc="268444498" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="87" pc="268444515" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="88" pc="268444540" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="89" pc="268444557" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="90" pc="268444582" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="91" pc="268444599" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="93" pc="268444615" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="94" pc="268444637" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="95" pc="268444669" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="98" pc="268444737" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="100" pc="268444771" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="101" pc="268444793" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="102" pc="268444846" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="103" pc="268444870" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="104" pc="268444903" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="106" pc="268444907" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="107" pc="268444918" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="108" pc="268444942" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="109" pc="268444946" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="110" pc="268445007" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="112" pc="268445049" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="115" pc="268445116" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="117" pc="268445177" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="118" pc="268445238" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="23" lineNum="119" pc="268445248" symbol="Formatting"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="122" pc="268445283" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="123" pc="268445287" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="124" pc="268445306" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="125" pc="268445331" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="126" pc="268445377" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="127" pc="268445414" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="129" pc="268445430" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="130" pc="268445455" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="131" pc="268445501" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="132" pc="268445517" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="134" pc="268445533" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="135" pc="268445558" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="136" pc="268445604" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="137" pc="268445620" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-1-ciq2-power\\source-ciq2power.mc" id="24" lineNum="139" pc="268445636" symbol="Lapaction"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="26" lineNum="21" pc="268445656" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="26" lineNum="22" pc="268445660" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="26" lineNum="23" pc="268445678" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="26" lineNum="24" pc="268445697" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="26" lineNum="25" pc="268445721" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="26" lineNum="26" pc="268445745" symbol="initialize"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="30" pc="268445770" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="31" pc="268445774" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="32" pc="268445787" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="33" pc="268445800" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="34" pc="268445813" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="35" pc="268445826" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="36" pc="268445839" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="37" pc="268445852" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="38" pc="268445865" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="39" pc="268445878" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="40" pc="268445891" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="41" pc="268445904" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="42" pc="268445917" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="27" lineNum="43" pc="268445930" symbol="onTimerReset"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="46" pc="268445944" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="48" pc="268445948" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="51" pc="268445968" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="52" pc="268445987" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="55" pc="268446012" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="57" pc="268446031" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="58" pc="268446098" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="59" pc="268446159" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="62" pc="268446226" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="63" pc="268446233" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="64" pc="268446240" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="65" pc="268446269" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="67" pc="268446282" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="68" pc="268446293" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="70" pc="268446304" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="71" pc="268446317" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="73" pc="268446336" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="75" pc="268446349" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="76" pc="268446365" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="77" pc="268446381" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="83" pc="268446421" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="84" pc="268446450" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="85" pc="268446479" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="86" pc="268446492" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="87" pc="268446505" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="94" pc="268446559" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="95" pc="268446572" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="97" pc="268446591" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="98" pc="268446631" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="99" pc="268446653" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="100" pc="268446661" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="101" pc="268446674" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="102" pc="268446694" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="103" pc="268446720" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="104" pc="268446734" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="106" pc="268446769" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="108" pc="268446788" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="109" pc="268446796" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="110" pc="268446809" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="112" pc="268446829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="113" pc="268446843" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="115" pc="268446878" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="116" pc="268446904" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="122" pc="268446929" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="123" pc="268446936" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="124" pc="268446954" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="125" pc="268446974" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="126" pc="268447014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="127" pc="268447030" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="128" pc="268447049" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="129" pc="268447069" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="130" pc="268447082" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="131" pc="268447098" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="132" pc="268447117" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="133" pc="268447137" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="134" pc="268447156" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="135" pc="268447172" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="136" pc="268447191" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="137" pc="268447211" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="138" pc="268447230" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="139" pc="268447246" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="140" pc="268447265" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="141" pc="268447285" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="142" pc="268447304" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Joop\\git\\DR7c2\\Datarun premium with 7 metrics. copy 2\\source-2-power\\source-power.mc" id="28" lineNum="143" pc="268447320" symbol="onUpdate"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="164" symbol="lShowDemo"/>
@@ -506,7 +506,7 @@
 <entry field="true" id="228" symbol="mPowerTime"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="43" symbol="mTimerRunning"/>
-<entry id="12" object="true" symbol="PowerView"/>
+<entry id="13" object="true" symbol="PowerView"/>
 <entry field="true" id="202" symbol="lShowlaps"/>
 <entry field="true" id="127" symbol="lAlertbeep"/>
 <entry field="true" id="177" symbol="lBlackBackground"/>
@@ -634,7 +634,7 @@
 <entry field="true" id="27" symbol="umyNumber"/>
 <entry field="true" id="231" symbol="mLastLapStoppedHeartrateMarker"/>
 <entry field="true" id="21" symbol="WatchID"/>
-<entry id="13" object="true" symbol="DeviceView"/>
+<entry id="11" object="true" symbol="DeviceView"/>
 <entry field="true" id="114" symbol="lETAMenu"/>
 <entry field="true" id="135" symbol="lspikeTreshold"/>
 <entry field="true" id="223" symbol="lShowmetric"/>
@@ -667,7 +667,7 @@
 <entry field="true" id="85" symbol="mLastLapElapsedHeartrate"/>
 <entry field="true" id="120" symbol="lLEFactor"/>
 <entry field="true" id="139" symbol="lHRMenu"/>
-<entry id="11" object="true" symbol="CiqView"/>
+<entry id="12" object="true" symbol="CiqView"/>
 <entry id="8389749" method="true" symbol="onTimerPause"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="178" symbol="lWorkoutTypeAlerts"/>
@@ -731,46 +731,46 @@
 <entry endPc="268440818" name="bytes" stackId="3" startPc="268440732"/>
 <entry endPc="268440818" name="val" stackId="2" startPc="268440732"/>
 <entry endPc="268440819" name="string" stackId="1" startPc="268440728"/>
-<entry endPc="268441107" name="info" stackId="1" startPc="268440842"/>
-<entry endPc="268441358" name="dc" stackId="1" startPc="268441141"/>
-<entry endPc="268441828" name="fString" stackId="16" startPc="268441689"/>
-<entry endPc="268442558" name="fTimerHours" stackId="20" startPc="268442430"/>
-<entry endPc="268442622" name="fTimerSecs" stackId="17" startPc="268442358"/>
-<entry endPc="268442622" name="fTimer" stackId="18" startPc="268442358"/>
-<entry endPc="268442622" name="xx" stackId="19" startPc="268442358"/>
-<entry endPc="268442794" name="xms" stackId="11" startPc="268441362"/>
-<entry endPc="268442794" name="yl" stackId="15" startPc="268441362"/>
-<entry endPc="268442794" name="Temp" stackId="8" startPc="268441362"/>
-<entry endPc="268442794" name="yh" stackId="13" startPc="268441362"/>
-<entry endPc="268442794" name="xl" stackId="14" startPc="268441362"/>
-<entry endPc="268442794" name="y" stackId="10" startPc="268441362"/>
-<entry endPc="268442794" name="xh" stackId="12" startPc="268441362"/>
-<entry endPc="268442794" name="originalFontcolor" stackId="7" startPc="268441362"/>
-<entry endPc="268442794" name="x" stackId="9" startPc="268441362"/>
-<entry endPc="268442795" name="fieldformat" stackId="4" startPc="268441358"/>
-<entry endPc="268442795" name="fieldvalue" stackId="3" startPc="268441358"/>
-<entry endPc="268442795" name="counter" stackId="2" startPc="268441358"/>
-<entry endPc="268442795" name="dc" stackId="1" startPc="268441358"/>
-<entry endPc="268442795" name="CorString" stackId="6" startPc="268441358"/>
-<entry endPc="268442795" name="fieldlabel" stackId="5" startPc="268441358"/>
-<entry endPc="268443167" name="info" stackId="1" startPc="268442799"/>
-<entry endPc="268443281" name="mApp" stackId="1" startPc="268443172"/>
-<entry endPc="268444864" name="mPowerWarningupper" stackId="7" startPc="268443460"/>
-<entry endPc="268444864" name="i" stackId="9" startPc="268443460"/>
-<entry endPc="268444864" name="vibrateData" stackId="8" startPc="268443460"/>
-<entry endPc="268444864" name="AveragePower3sec" stackId="4" startPc="268443460"/>
-<entry endPc="268444864" name="mLapElapsedPower" stackId="3" startPc="268443460"/>
-<entry endPc="268444864" name="info" stackId="2" startPc="268443460"/>
-<entry endPc="268444864" name="currentPowertest" stackId="5" startPc="268443460"/>
-<entry endPc="268444864" name="mPowerWarningunder" stackId="6" startPc="268443460"/>
-<entry endPc="268444865" name="dc" stackId="1" startPc="268443456"/>
-<entry endPc="268445478" name="myTime" stackId="2" startPc="268445348"/>
-<entry endPc="268445478" name="strTime" stackId="3" startPc="268445348"/>
-<entry endPc="268445988" name="i" stackId="4" startPc="268445499"/>
-<entry endPc="268446288" name="mBattcolor" stackId="5" startPc="268444990"/>
-<entry endPc="268446288" name="Endstatuspwrbr" stackId="7" startPc="268444990"/>
-<entry endPc="268446288" name="Startstatuspwrbr" stackId="6" startPc="268444990"/>
-<entry endPc="268447353" name="dc" stackId="1" startPc="268444888"/>
+<entry endPc="268441432" name="myTime" stackId="2" startPc="268441302"/>
+<entry endPc="268441432" name="strTime" stackId="3" startPc="268441302"/>
+<entry endPc="268441942" name="i" stackId="4" startPc="268441453"/>
+<entry endPc="268442242" name="mBattcolor" stackId="5" startPc="268440944"/>
+<entry endPc="268442242" name="Endstatuspwrbr" stackId="7" startPc="268440944"/>
+<entry endPc="268442242" name="Startstatuspwrbr" stackId="6" startPc="268440944"/>
+<entry endPc="268443307" name="dc" stackId="1" startPc="268440842"/>
+<entry endPc="268443595" name="info" stackId="1" startPc="268443330"/>
+<entry endPc="268443846" name="dc" stackId="1" startPc="268443629"/>
+<entry endPc="268444316" name="fString" stackId="16" startPc="268444177"/>
+<entry endPc="268445046" name="fTimerHours" stackId="20" startPc="268444918"/>
+<entry endPc="268445110" name="fTimerSecs" stackId="17" startPc="268444846"/>
+<entry endPc="268445110" name="fTimer" stackId="18" startPc="268444846"/>
+<entry endPc="268445110" name="xx" stackId="19" startPc="268444846"/>
+<entry endPc="268445282" name="xms" stackId="11" startPc="268443850"/>
+<entry endPc="268445282" name="yl" stackId="15" startPc="268443850"/>
+<entry endPc="268445282" name="Temp" stackId="8" startPc="268443850"/>
+<entry endPc="268445282" name="yh" stackId="13" startPc="268443850"/>
+<entry endPc="268445282" name="xl" stackId="14" startPc="268443850"/>
+<entry endPc="268445282" name="y" stackId="10" startPc="268443850"/>
+<entry endPc="268445282" name="xh" stackId="12" startPc="268443850"/>
+<entry endPc="268445282" name="originalFontcolor" stackId="7" startPc="268443850"/>
+<entry endPc="268445282" name="x" stackId="9" startPc="268443850"/>
+<entry endPc="268445283" name="fieldformat" stackId="4" startPc="268443846"/>
+<entry endPc="268445283" name="fieldvalue" stackId="3" startPc="268443846"/>
+<entry endPc="268445283" name="counter" stackId="2" startPc="268443846"/>
+<entry endPc="268445283" name="dc" stackId="1" startPc="268443846"/>
+<entry endPc="268445283" name="CorString" stackId="6" startPc="268443846"/>
+<entry endPc="268445283" name="fieldlabel" stackId="5" startPc="268443846"/>
+<entry endPc="268445655" name="info" stackId="1" startPc="268445287"/>
+<entry endPc="268445769" name="mApp" stackId="1" startPc="268445660"/>
+<entry endPc="268447352" name="mPowerWarningupper" stackId="7" startPc="268445948"/>
+<entry endPc="268447352" name="i" stackId="9" startPc="268445948"/>
+<entry endPc="268447352" name="vibrateData" stackId="8" startPc="268445948"/>
+<entry endPc="268447352" name="AveragePower3sec" stackId="4" startPc="268445948"/>
+<entry endPc="268447352" name="mLapElapsedPower" stackId="3" startPc="268445948"/>
+<entry endPc="268447352" name="info" stackId="2" startPc="268445948"/>
+<entry endPc="268447352" name="currentPowertest" stackId="5" startPc="268445948"/>
+<entry endPc="268447352" name="mPowerWarningunder" stackId="6" startPc="268445948"/>
+<entry endPc="268447353" name="dc" stackId="1" startPc="268445944"/>
 </localVars>
 <annotations/>
 <functions>
@@ -804,6 +804,13 @@
 </functionEntry>
 <functionEntry accessMode="public" name="hashfunction" parent="DatarunpremiumView">
 <param id="string"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DeviceView">
+<documentation><![CDATA[<div class="description"> it's good practice to always have an initialize, make sure to call your parent class here!<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="DeviceView">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="CiqView">
@@ -845,13 +852,6 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="DeviceView">
-<documentation><![CDATA[<div class="description"> it's good practice to always have an initialize, make sure to call your parent class here!<br/></div>]]></documentation>
-</functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="DeviceView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
 </functions>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
@@ -865,7 +865,7 @@
 <dataEntry offset="1191" parentId="Rez" symbolId="Strings" type="module"/>
 <dataEntry offset="2222" parentId="globals" symbolId="CiqView" type="class"/>
 <dataEntry offset="2317" parentId="globals" symbolId="Datarunpremiumwith7metricscopy2App" type="class"/>
-<dataEntry offset="2372" parentId="globals" symbolId="DeviceView" type="class"/>
-<dataEntry offset="2427" parentId="globals" symbolId="PowerView" type="class"/>
+<dataEntry offset="2372" parentId="globals" symbolId="PowerView" type="class"/>
+<dataEntry offset="2571" parentId="globals" symbolId="DeviceView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
