@@ -106,7 +106,7 @@ class ExtramemView extends DatarunpremiumView {
             	}
             }
         }
-
+        
 		//! Calculate vertical speed
 		var valueDesc = (info.totalDescent != null) ? info.totalDescent : 0;
         valueDesc = (unitD == 1609.344) ? valueDesc*3.2808 : valueDesc;
@@ -119,7 +119,7 @@ class ExtramemView extends DatarunpremiumView {
         VertPace2 								= VertPace1;
         VertPace1								= CurrentVertSpeedinmpersec; 
 		var AverageVertspeedinmper5sec= (VertPace1+VertPace2+VertPace3+VertPace4+VertPace5)/5;
-
+		
 
 		var i = 0; 
 	    for (i = 1; i < 8; ++i) {
@@ -363,7 +363,7 @@ class ExtramemView extends DatarunpremiumView {
 		//! Display colored labels on screen
 		for (var i = 1; i < 8; ++i) {
 		   	if ( i == 1 ) {			//!upper row, left    	
-	    		Coloring(dc,i,fieldValue[i],"018,029,100,019");
+	    		Coloring(dc,i,fieldValue[i],"018,029,100,019");	    		
 		   	} else if ( i == 2 ) {	//!upper row, right
 		   		Coloring(dc,i,fieldValue[i],"120,029,100,019");
 	       	} else if ( i == 3 ) {  //!middle row, left
@@ -432,13 +432,6 @@ class ExtramemView extends DatarunpremiumView {
 	       	dc.drawText(120, 13, Graphics.FONT_MEDIUM, CFMValue, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
     	    mColourFont = originalFontcolor;
 			dc.setColor(mColourFont, Graphics.COLOR_TRANSPARENT);
-		}
-		
-		if (jTimertime == 0) {
-        	var myTime = Toybox.System.getClockTime(); 
-	    	var strTime = myTime.hour.format("%02d") + ":" + myTime.min.format("%02d");
-	    	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-			dc.drawText(120, 160, Graphics.FONT_MEDIUM, strTime, Graphics.TEXT_JUSTIFY_CENTER);
 		}
 	   }		
 	}

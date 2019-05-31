@@ -12,8 +12,6 @@ class Datarunpremiumwith7metricscopy2App extends Toybox.Application.AppBase {
 }
 
 class DatarunpremiumView extends Ui.DataField {
-	hidden var stats = Sys.getSystemStats();
-	hidden var pwr = stats.battery;
 	hidden var appversion = "1.00";
 
 	//!Get device info
@@ -117,7 +115,7 @@ class DatarunpremiumView extends Ui.DataField {
     	 metric[4] 		= mApp.getProperty("pMiddleMiddleMetric");    
     	 metric[5]		= mApp.getProperty("pMiddleRightMetric");
          metric[6]   	= mApp.getProperty("pBottomLeftMetric");
-         metric[7]  	= mApp.getProperty("pBottomRightMetric");
+         metric[7]  	= mApp.getProperty("pBottomRightMetric");         
          uRoundedPace        = mApp.getProperty("pRoundedPace");
          uBacklight          = mApp.getProperty("pBacklight");
          umyNumber			 = mApp.getProperty("myNumber");
@@ -262,7 +260,7 @@ class DatarunpremiumView extends Ui.DataField {
 		var i = 0; 
 	    for (i = 1; i < 8; ++i) {	    
         	if (metric[i] == 0) {
-            	fieldValue[i] = jTimertime;
+            	fieldValue[i] = (info.timerTime != null) ? info.timerTime/1000 : 0;
             	fieldLabel[i] = "Timer";
             	fieldFormat[i] = "time";   
 	        } else if (metric[i] == 1) {
