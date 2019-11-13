@@ -31,8 +31,8 @@
     <!-- Beta name:
     <string id="AppName">Datarun premium with 7 metrics, copy 2</string>
     -->
-    <string id="AppVersion">2.20d</string>
-    <string id="lDummysetting4version">Version 2.20d of Datarun premium with 7 metrics, copy 2 (dummy setting)</string>
+    <string id="AppVersion">2.20e</string>
+    <string id="lDummysetting4version">Version 2.20e of Datarun premium with 7 metrics, copy 2 (dummy setting)</string>
     <string id="lCCnumber">C-Code generated on the watch by the corresponding main Datarun premium datafield</string>
 	<string id="lTimeMenu">___Time items___</string>
 	<string id="lDistanceMenu">___Distance items___</string>

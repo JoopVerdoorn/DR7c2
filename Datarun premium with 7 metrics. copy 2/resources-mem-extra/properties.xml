@@ -40,8 +40,8 @@
     <!-- Beta name:
     <string id="AppName">Datarun premium with 7 metrics, copy 2</string>
     -->
-    <string id="AppVersion">2.20d</string>
-    <string id="lDummysetting4version">Version 2.20d of Datarun premium with 7 metrics, copy 2 (dummy setting)</string>
+    <string id="AppVersion">2.20e</string>
+    <string id="lDummysetting4version">Version 2.20e of Datarun premium with 7 metrics, copy 2 (dummy setting)</string>
     <string id="lCCnumber">C-Code generated on the watch by the corresponding main Datarun premium datafield</string>
 	<string id="lTimeMenu">___Time items___</string>
 	<string id="lDistanceMenu">___Distance items___</string>
@@ -126,7 +126,7 @@
 	<string id="lAverage30secSpeed">Speed averaged over the last .. seconds in km/mile per hour (max is 300 seconds)</string>
 	<string id="lRCadence">Cadence in rotations per minute</string>
 	<string id="lAEFactor">Average efficiency factor</string>
-	<string id="lCEFactor">Current efficiency Index</string>
+	<string id="lCEFactor">Current efficiency factor</string>
 	<string id="lLEFactor">Current lap efficiency factor</string>
 	<string id="lLLEFactor">Last lap average efficiency factor</string>
 	<string id="ldisablelabel1">Disable colored label for upper left metric</string>
@@ -706,8 +706,7 @@
         <listEntry value="53">@Strings.lElevationLoss</listEntry>
         
         <listEntry value="997">@Strings.lPIMenu</listEntry>
-        <listEntry value="31">@Strings.lCEFactor</listEntry>
-        <listEntry value="32">@Strings.lAEFactor</listEntry>
+        <listEntry value="32">@Strings.lCEFactor</listEntry>
         <listEntry value="28">@Strings.lLEFactor</listEntry>
         <listEntry value="29">@Strings.lLLEFactor</listEntry>
         <listEntry value="30">@Strings.lAEFactor</listEntry>
