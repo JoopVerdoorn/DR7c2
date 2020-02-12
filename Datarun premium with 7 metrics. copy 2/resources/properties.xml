@@ -23,12 +23,12 @@
 	
   <strings>
     <!-- Release name: -->
-    <string id="AppName">Datarun premium with 7 metrics, copy 2</string>
+    <string id="AppName">Datarun premium with 7 metrics, copy 2 version</string>
     <!-- Beta name:
-    <string id="AppName">Datarun premium with 7 metrics, copy 2</string>
+    <string id="AppName">Datarun premium with 7 metrics, copy 2 version</string>
     -->
-    <string id="AppVersion">2.20e</string>
-    <string id="lDummysetting4version">Version 2.20e of Datarun premium with 7 metrics, copy 2 (dummy setting)</string>
+    <string id="AppVersion">2.23c</string>
+    <string id="lDummysetting4version">Version 2.23c of Datarun premium with 7 metrics, copy 2 version (dummy setting)</string>
     <string id="lCCnumber">C-Code generated on the watch by the corresponding main Datarun premium datafield</string>
 	<string id="lTimeMenu">___Time items___</string>
 	<string id="lDistanceMenu">___Distance items___</string>
@@ -115,6 +115,7 @@
     <setting propertyKey="@Properties.pCCnumber" title="@Strings.lCCnumber">
         <settingConfig type="numeric" errorMessage="@Strings.MyNumberError" />
     </setting>
+    
     <setting propertyKey="@Properties.pRoundedPace" title="@Strings.lRoundedPace">
       <settingConfig type="boolean" required="true" />
     </setting>

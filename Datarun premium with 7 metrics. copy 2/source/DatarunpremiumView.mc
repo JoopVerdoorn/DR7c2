@@ -59,13 +59,6 @@ class DatarunpremiumView extends Ui.DataField {
 
     hidden var uBacklight                   = false;
 
-    hidden var uUpperLeftMetric            = 0;    //! Timer is default
-    hidden var uUpperRightMetric           = 4;    //! Distance is default
-    hidden var uMiddleLeftMetric           = 45;    //! HR is default
-    hidden var uMiddleMiddleMetric           = 8;    //! Pace is default    
-    hidden var uMiddleRightMetric           = 50;    //! Cadence is default
-    hidden var uBottomLeftMetric            = 10;    //! Power is default
-    hidden var uBottomRightMetric           = 20;    //! Lap power is default
     hidden var uRequiredPower		 		= "000:999";
     hidden var uWarningFreq		 			= 5;
     hidden var uAlertbeep			 		= false;
@@ -120,12 +113,12 @@ class DatarunpremiumView extends Ui.DataField {
          uRoundedPace        = mApp.getProperty("pRoundedPace");
          uBacklight          = mApp.getProperty("pBacklight");
          umyNumber			 = mApp.getProperty("myNumber");
-         var uCCnumber	     = mApp.getProperty("pCCnumber");
          uShowDemo			 = mApp.getProperty("pShowDemo");
          uMilClockAltern	 = mApp.getProperty("pMilClockAltern");
          uRacedistance		 = mApp.getProperty("pRacedistance");
          uRacetime			 = mApp.getProperty("pRacetime");
          uETAfromLap		 = mApp.getProperty("pETAfromLap");
+         var uCCnumber	     = mApp.getProperty("pCCnumber");
          var uHrZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
           	 
         if (System.getDeviceSettings().paceUnits == System.UNIT_STATUTE) {
