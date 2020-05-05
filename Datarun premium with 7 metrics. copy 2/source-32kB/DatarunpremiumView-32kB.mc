@@ -1,31 +1,14 @@
 using Toybox.WatchUi as Ui;
-using Toybox.Application.Storage;
-using Toybox.Background;
-using Toybox.Communications;
-using Toybox.System;
 
 class Datarunpremiumwith7metricscopy2App extends Toybox.Application.AppBase {
-    hidden var temp;
     function initialize() {
         AppBase.initialize();
     }
 
     //! Return the initial view of your application here
     function getInitialView() {
-        if(Toybox.System has :ServiceDelegate) {
-			Background.registerForTemporalEvent(new Time.Duration(5 * 60));
-		}
-   		return [ new DeviceView() ];
-	}
-
-	function onBackgroundData(data) {
-		temp=data;
-		Storage.setValue("mytemp", temp);	
-	}
-
-	function getServiceDelegate(){
-		return [new TempBgServiceDelegate()];
-	}
+        return [ new DeviceView() ];  
+    }
 }
 
 class DatarunpremiumView extends Ui.DataField {
@@ -422,17 +405,4 @@ class DatarunpremiumView extends Ui.DataField {
     	return val + (val >> 5);
 	}    
 
-}
-
-(:background)
-class TempBgServiceDelegate extends Toybox.System.ServiceDelegate {
-
-	function initialize() {
-		System.ServiceDelegate.initialize();
-	}
-
-	function onTemporalEvent() {
-		var si=Sensor.getInfo();
-		Background.exit(si.temperature);
-	}
 }
