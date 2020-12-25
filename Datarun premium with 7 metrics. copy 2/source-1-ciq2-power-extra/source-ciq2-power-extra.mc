@@ -95,6 +95,10 @@ class CiqView extends ExtramemView {
 			//!Calculate lapheartrate
             mHeartrateTime	 = (info.currentHeartRate != null) ? mHeartrateTime+1 : mHeartrateTime;				
            	mElapsedHeartrate= (info.currentHeartRate != null) ? mElapsedHeartrate + info.currentHeartRate : mElapsedHeartrate;
+           	
+           	//!Calculate lapCadence
+            mCadenceTime	 = (info.currentCadence != null) ? mCadenceTime+1 : mCadenceTime;
+            mElapsedCadence= (info.currentCadence != null) ? mElapsedCadence + info.currentCadence : mElapsedCadence;
   
             //! Calculate temperature compensation, B-variables reference cell number from cells of conversion excelsheet  		
             var B6 = 22; 			//! is cell B6
@@ -135,29 +139,29 @@ class CiqView extends ExtramemView {
             			uFTPTemp = 18;
             			B6 = 18;  
             		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
-            			B6 = tempeTemp ;  
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
 	            		uFTPHumid = 70;
     	        		uRealHumid = 70;
         	    		uFTPAltitude = 200;
             			uRealAltitude =	200;
             		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 1) {
-            			B6 = tempeTemp ;  
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
 	            		uFTPHumid = 70;
     	        		uRealHumid = 70;
     	        		uRealAltitude =	(info.altitude != null) ? info.altitude : 0;
             		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 2) {
-            			B6 = tempeTemp ;  
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
 	            		uFTPHumid = 70;
     	        		uRealHumid = 70;
             		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 0) {
-            			B6 = tempeTemp ;  
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
         	    		uFTPAltitude = 200;
             			uRealAltitude =	200;
             		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 1) {
-            			B6 = tempeTemp ;
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;
             			uRealAltitude =	(info.altitude != null) ? info.altitude : 0;  
             		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 2) {
-            			B6 = tempeTemp ;  
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
             		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
             			B6 = uManTemp;  
 	            		uFTPHumid = 70;
@@ -653,6 +657,11 @@ class CiqView extends ExtramemView {
         mLastLapElapsedHeartrate 	= (info.currentHeartRate != null) ? mElapsedHeartrate - mLastLapHeartrateMarker : 0;
         mLastLapHeartrateMarker     = mElapsedHeartrate;
         mLastLapTimeHRMarker        = mHeartrateTime;
+        
+        mLastLapTimerTimeCadence	= mHeartrateTime - mLastLapTimeCadenceMarker;
+        mLastLapElapsedCadence 		= (info.currentCadence != null) ? mElapsedCadence - mLastLapCadenceMarker : 0;
+        mLastLapCadenceMarker     	= mElapsedCadence;
+        mLastLapTimeCadenceMarker   = mCadenceTime;
 
         mLastLapTimerTimePwr		= mPowerTime - mLastLapTimePwrMarker;
         mLastLapElapsedPower  		= (info.currentPower != null) ? mElapsedPower - mLastLapPowerMarker : 0;

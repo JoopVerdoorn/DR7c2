@@ -4,7 +4,7 @@ using Toybox.Background;
 using Toybox.Communications;
 using Toybox.System;
 
-class Datarunpremiumwith7metricscopy2App extends Toybox.Application.AppBase {
+class DatarunpremiumApp extends Toybox.Application.AppBase {
     hidden var temp;
     function initialize() {
         AppBase.initialize();
@@ -28,7 +28,7 @@ class Datarunpremiumwith7metricscopy2App extends Toybox.Application.AppBase {
 	}
 }
 
-class DatarunpremiumView extends Ui.DataField {
+class Datarunpremiumwith7metricscopy2App extends Ui.DataField {
 
 	//!Get device info
 	var mySettings = System.getDeviceSettings();
@@ -126,7 +126,7 @@ class DatarunpremiumView extends Ui.DataField {
     	 metric[4] 		= mApp.getProperty("pMiddleMiddleMetric");    
     	 metric[5]		= mApp.getProperty("pMiddleRightMetric");
          metric[6]   	= mApp.getProperty("pBottomLeftMetric");
-         metric[7]  	= mApp.getProperty("pBottomRightMetric");      
+         metric[7]  	= mApp.getProperty("pBottomRightMetric");     
          uRoundedPace        = mApp.getProperty("pRoundedPace");
          uBacklight          = mApp.getProperty("pBacklight");
          umyNumber			 = mApp.getProperty("myNumber");
@@ -137,7 +137,7 @@ class DatarunpremiumView extends Ui.DataField {
          uETAfromLap		 = mApp.getProperty("pETAfromLap");
          var uHrZones = UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
          var uCCnumber	     = mApp.getProperty("pCCnumber");
-          	 
+
         if (System.getDeviceSettings().paceUnits == System.UNIT_STATUTE) {
             unitP = 1609.344;
         }
