@@ -4,7 +4,7 @@ using Toybox.Background;
 using Toybox.Communications;
 using Toybox.System;
 
-class DatarunpremiumApp extends Toybox.Application.AppBase {
+class Datarunpremiumwith7metricscopy2App extends Toybox.Application.AppBase {
     hidden var temp;
     function initialize() {
         AppBase.initialize();
@@ -28,7 +28,7 @@ class DatarunpremiumApp extends Toybox.Application.AppBase {
 	}
 }
 
-class Datarunpremiumwith7metricscopy2App extends Ui.DataField {
+class DatarunpremiumView extends Ui.DataField {
 
 	//!Get device info
 	var mySettings = System.getDeviceSettings();
