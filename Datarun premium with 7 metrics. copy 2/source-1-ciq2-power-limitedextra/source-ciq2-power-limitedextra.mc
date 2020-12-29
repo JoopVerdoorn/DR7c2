@@ -4,6 +4,7 @@ class CiqView extends ExtramemView {
 	var mfillColour 						= Graphics.COLOR_LT_GRAY;
 	var Averagepowerpersec 					= 0;
 	var uBlackBackground 					= false;
+	var uFTP								= 250;   
 	var i 									= 0;
 	var setPowerWarning 					= 0;
 	var Garminfont = Ui.loadResource(Rez.Fonts.Garmin1);
@@ -28,6 +29,7 @@ class CiqView extends ExtramemView {
 		uPowerZones		 = mApp.getProperty("pPowerZones");	
 		PalPowerzones 	 = mApp.getProperty("p10Powerzones");
 		uPower10Zones	 = mApp.getProperty("pPPPowerZones");
+		uFTP		 	 = mApp.getProperty("pFTP");
 		uPowerTarget	 = mApp.getProperty("pPowerTarget");
 		uOnlyPwrCorrFactor= mApp.getProperty("pOnlyPwrCorrFactor");
 		uPwrTempcorrect	 = mApp.getProperty("pPwrTempcorrect");
@@ -274,6 +276,22 @@ class CiqView extends ExtramemView {
             	}
             	fieldLabel[i] = "s/100m";
         	    fieldFormat[i] = "1decimal";
+        	} else if (metric[i] == 25) {
+    	        fieldValue[i] = (LapPower != 0) ? mLapSpeed*60/LapPower : 0;
+        	    fieldLabel[i] = "Lap EI";
+            	fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 26) {
+    	        fieldValue[i] = (LastLapPower != 0) ? mLastLapSpeed*60/LastLapPower : 0;
+        	    fieldLabel[i] = "LL EI";
+            	fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 27) {
+	            fieldValue[i] = (info.averageSpeed != null && AveragePower != 0) ? info.averageSpeed*60/AveragePower : 0;
+    	        fieldLabel[i] = "Avg EI";
+        	    fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 31) {
+	            fieldValue[i] = (runPower != 0) ? Averagespeedinmper3sec*60/runPower : 0;
+    	        fieldLabel[i] = "Cur EI";
+        	    fieldFormat[i] = "2decimal";
         	} else if (metric[i] == 70) {
     	        fieldValue[i] = AveragePower5sec;
         	    fieldLabel[i] = "Pwr 5s";
@@ -286,6 +304,38 @@ class CiqView extends ExtramemView {
     	        fieldValue[i] = (info.maxPower != null) ? info.maxPower : 0;
         	    fieldLabel[i] = "Max Pwr";
             	fieldFormat[i] = "power";  
+			} else if (metric[i] == 71) {
+            	fieldValue[i] = (uFTP != 0) ? runPower*100/uFTP : 0;
+            	fieldLabel[i] = "%FTP";
+            	fieldFormat[i] = "power";   
+	        } else if (metric[i] == 72) {
+    	        fieldValue[i] = (uFTP != 0) ? AveragePower3sec*100/uFTP : 0;
+        	    fieldLabel[i] = "%FTP 3s";
+            	fieldFormat[i] = "power";     	
+			} else if (metric[i] == 73) {
+    	        fieldValue[i] = (uFTP != 0) ? LapPower*100/uFTP : 0;
+        	    fieldLabel[i] = "L %FTP";
+            	fieldFormat[i] = "power";
+			} else if (metric[i] == 74) {
+        	    fieldValue[i] = (uFTP != 0) ? LastLapPower*100/uFTP : 0;
+            	fieldLabel[i] = "LL %FTP";
+            	fieldFormat[i] = "power";
+	        } else if (metric[i] == 75) {
+    	        fieldValue[i] = (uFTP != 0) ? AveragePower*100/uFTP : 0;
+        	    fieldLabel[i] = "A %FTP";
+            	fieldFormat[i] = "power";  
+	        } else if (metric[i] == 76) {
+    	        fieldValue[i] = (uFTP != 0) ? AveragePower5sec*100/uFTP : 0;
+        	    fieldLabel[i] = "%FTP 5s";
+            	fieldFormat[i] = "power";
+			} else if (metric[i] == 77) {
+    	        fieldValue[i] = (uFTP != 0) ? AveragePower10sec*100/uFTP : 0;
+        	    fieldLabel[i] = "%FTP 10s";
+            	fieldFormat[i] = "power";
+			} else if (metric[i] == 78) {
+	            fieldValue[i] = (uFTP != 0) ? Averagepowerpersec*100/uFTP : 0;
+    	        fieldLabel[i] = "%FTP ..sec";
+        	    fieldFormat[i] = "power";
         	} 
         	//!einde invullen field metrics
 		}

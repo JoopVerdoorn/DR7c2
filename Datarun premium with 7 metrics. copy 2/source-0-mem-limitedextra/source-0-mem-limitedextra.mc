@@ -14,6 +14,7 @@ class ExtramemView extends DatarunpremiumView {
 	var uClockFieldMetric 					= 38; //! Powerzone is default
 	var HRzone								= 0;
 	hidden var Powerzone					= 0;
+	var VertPace							= [1, 2, 3, 4, 5, 6];
 	var uGarminColors 						= false;
 	var Z1color = Graphics.COLOR_LT_GRAY;
 	var Z2color = Graphics.COLOR_YELLOW;
@@ -26,6 +27,10 @@ class ExtramemView extends DatarunpremiumView {
 	var kCalories							= 0;
 	hidden var tempeTemp 					= 20;
 	var utempunits							= false;
+	var valueAsclast						= 0;
+	var valueDesclast						= 0;
+	var Diff1 								= 0;
+	var Diff2 								= 0;
 	var utempcalibration					= 0;
 	var hrRest;
 	
@@ -45,6 +50,11 @@ class ExtramemView extends DatarunpremiumView {
 		disablelabel[6] 			= mApp.getProperty("pdisablelabel6");
 		disablelabel[7] 			= mApp.getProperty("pdisablelabel7");
 		utempcalibration 			= mApp.getProperty("pTempeCalibration");    
+
+		var i; 
+		for (i = 1; i < 6; ++i) {
+			VertPace[i] = 0;
+		} 
 		
 		var uProfile = Toybox.UserProfile.getProfile();
 		hrRest = (uProfile.restingHeartRate != null) ? uProfile.restingHeartRate : 50;	
@@ -82,7 +92,22 @@ class ExtramemView extends DatarunpremiumView {
         mRacesec = mRacesec.toNumber();
         mRacetime = mRacehour*3600 + mRacemin*60 + mRacesec;
 	
-        
+		//! Calculate vertical speed
+		var valueDesc = (info.totalDescent != null) ? info.totalDescent : 0;
+        valueDesc = (unitD == 1609.344) ? valueDesc*3.2808 : valueDesc;
+        Diff1 = valueDesc - valueDesclast;
+		var valueAsc = (info.totalAscent != null) ? info.totalAscent : 0;
+        valueAsc = (unitD == 1609.344) ? valueAsc*3.2808 : valueAsc;
+        Diff2 = valueAsc - valueAsclast;
+        valueDesclast = valueDesc;
+        valueAsclast = valueAsc;
+        var CurrentVertSpeedinmpersec = Diff2-Diff1;
+		VertPace[5] 								= VertPace[4];
+		VertPace[4] 								= VertPace[3];
+		VertPace[3] 								= VertPace[2];
+        VertPace[2] 								= VertPace[1];
+        VertPace[1]								= CurrentVertSpeedinmpersec; 
+		var AverageVertspeedinmper5sec= (VertPace[1]+VertPace[2]+VertPace[3]+VertPace[4]+VertPace[5])/5;       
 		
 		var sensorIter = getIterator();
 		maxHR = uHrZones[5];
@@ -91,11 +116,47 @@ class ExtramemView extends DatarunpremiumView {
 	        if (metric[i] == 46) {
 	            fieldValue[i] = (info.currentHeartRate != null) ? info.currentHeartRate : 0;
     	        fieldLabel[i] = "HR zone";
-        	    fieldFormat[i] = "1decimal";        	    
+        	    fieldFormat[i] = "1decimal";      
+        	} else if (metric[i] == 81) {
+	        	if (Toybox.Activity.Info has :distanceToNextPoint) {
+    	        	fieldValue[i] = (info.distanceToNextPoint != null) ? info.distanceToNextPoint / unitD : 0;
+    	        }
+        	    fieldLabel[i] = "DistNext";
+            	fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 82) {
+    	        if (Toybox.Activity.Info has :distanceToDestination) {
+    	        	fieldValue[i] = (info.distanceToDestination != null) ? info.distanceToNextPoint / unitD : 0;
+    	        }
+        	    fieldLabel[i] = "DistDest";
+            	fieldFormat[i] = "2decimal";
+	        } else if (metric[i] == 28) {
+    	        fieldValue[i] = (LapHeartrate != 0) ? mLapSpeed*60/LapHeartrate : 0;
+        	    fieldLabel[i] = "Lap EF";
+            	fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 29) {
+    	        fieldValue[i] = (LastLapHeartrate != 0) ? mLastLapSpeed*60/LastLapHeartrate : 0;
+        	    fieldLabel[i] = "LL EF";
+            	fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 30) {
+	            fieldValue[i] = (info.averageSpeed != null && AverageHeartrate != 0) ? info.averageSpeed*60/AverageHeartrate : 0;
+    	        fieldLabel[i] = "Avg EF";
+        	    fieldFormat[i] = "2decimal";
+			} else if (metric[i] == 32) {
+	            fieldValue[i] = (info.currentHeartRate != null && info.currentHeartRate != 0) ? mLapSpeed*60/info.currentHeartRate : 0;
+    	        fieldLabel[i] = "Cur EF";
+        	    fieldFormat[i] = "2decimal";  	    
         	} else if (metric[i] == 54) {
     	        fieldValue[i] = (info.trainingEffect != null) ? info.trainingEffect : 0;
         	    fieldLabel[i] = "T effect";
             	fieldFormat[i] = "2decimal";           	         	         	
+			} else if (metric[i] == 52) {
+           		fieldValue[i] = valueAsc;
+            	fieldLabel[i] = "EL gain";
+            	fieldFormat[i] = "0decimal";
+        	}  else if (metric[i] == 53) {
+           		fieldValue[i] = valueDesc;
+            	fieldLabel[i] = "EL loss";
+            	fieldFormat[i] = "0decimal";   
         	}  else if (metric[i] == 62) {
            		fieldValue[i] = (info.currentSpeed != null) ? 3.6*((Pace1+Pace2+Pace3)/3)*1000/unitP : 0;
             	fieldLabel[i] = "Spd 3s";
@@ -104,6 +165,10 @@ class ExtramemView extends DatarunpremiumView {
            		fieldValue[i] = 3.6*Averagespeedinmpersec*1000/unitP ;
             	fieldLabel[i] = "Spd ..s";
             	fieldFormat[i] = "2decimal";           	
+        	}  else if (metric[i] == 67) {
+           		fieldValue[i] = (unitD == 1609.344) ? AverageVertspeedinmper5sec*3.2808 : AverageVertspeedinmper5sec;
+            	fieldLabel[i] = "V speed";
+            	fieldFormat[i] = "1decimal";
 			} else if (metric[i] == 83) {
             	fieldValue[i] = (maxHR != 0) ? currentHR*100/maxHR : 0;
             	fieldLabel[i] = "%MaxHR";
