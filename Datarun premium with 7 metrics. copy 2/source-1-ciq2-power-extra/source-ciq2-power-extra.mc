@@ -257,11 +257,6 @@ class CiqView extends ExtramemView {
         }
         if (currentPowertest > 0) {
             if (currentPowertest > 0) {
-				if (info.currentPower != null) {
-        			Power[1]								= runPower; 
-        		} else {
-        			Power[1]								= 0;
-				}
         		Power[10] 								= Power[9];
         		Power[9] 								= Power[8];
         		Power[8] 								= Power[7];
@@ -271,6 +266,11 @@ class CiqView extends ExtramemView {
         		Power[4] 								= Power[3];
         		Power[3] 								= Power[2];
         		Power[2] 								= Power[1];
+				if (info.currentPower != null) {
+        			Power[1]								= runPower; 
+        		} else {
+        			Power[1]								= 0;
+				}        		
 				AveragePower10sec	= (Power1+Power[2]+Power[3]+Power[4]+Power[5]+Power[6]+Power[7]+Power[8]+Power[9]+Power[10])/10;
 				AveragePower5sec	= (Power[1]+Power[2]+Power[3]+Power[4]+Power[5])/5;
 				AveragePower3sec	= (Power[1]+Power[2]+Power[3])/3;

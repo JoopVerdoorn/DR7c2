@@ -2,48 +2,46 @@ using Toybox.Math;
 using Toybox.WatchUi as Ui;
 class CiqView extends ExtramemView {  
 	var mfillColour 						= Graphics.COLOR_LT_GRAY;
-	var counterPower 						= 0;
-	var rollingPwrValue 					= new [303];
-	var totalRPw 							= 0;
-	var rolavPowmaxsecs 					= 30;
 	var Averagepowerpersec 					= 0;
 	var uBlackBackground 					= false;
-	var uFTP								= 250;    
-	var uCP									= 250;
-	var RSS									= 0;
-	var sum4thPowers						= 0;
-	var fourthPowercounter 					= 0;
-	var mIntensityFactor					= 0;
-	var mTTS								= 0;
 	var i 									= 0;
 	var setPowerWarning 					= 0;
 	var Garminfont = Ui.loadResource(Rez.Fonts.Garmin1);
-	var Power 								= [1, 2, 3, 4, 5, 6];
-    var uWeight								= 70;
+	var Power 								= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
     var uPowerTarget						= 225;
     var uOnlyPwrCorrFactor					= false;
-
+    var uPwrTempcorrect 					= 0;
+    var uPwrHumidcorrect 					= 0;
+    var uPwrAlticorrect 					= 0; 
+    var uFTPTemp							= 20;
+    var uManTemp							= 20;
 	var PwrCorrFactor							= 1;
+    var uRealHumid 							= 40;
+    var uFTPHumid 							= 70;
+    var uRealAltitude 						= 2;
+    var uFTPAltitude 						= 200;
 
             		            				
     function initialize() {
         ExtramemView.initialize();
 		var mApp 		 = Application.getApp();
-		rolavPowmaxsecs	 = mApp.getProperty("prolavPowmaxsecs");	
 		uPowerZones		 = mApp.getProperty("pPowerZones");	
 		PalPowerzones 	 = mApp.getProperty("p10Powerzones");
 		uPower10Zones	 = mApp.getProperty("pPPPowerZones");
-		uFTP		 	 = mApp.getProperty("pFTP");
-		uCP		 	 	 = mApp.getProperty("pCP");
-		uWeight			 = mApp.getProperty("pWeight");
 		uPowerTarget	 = mApp.getProperty("pPowerTarget");
-
-	
-		
-
+		uOnlyPwrCorrFactor= mApp.getProperty("pOnlyPwrCorrFactor");
+		uPwrTempcorrect	 = mApp.getProperty("pPwrTempcorrect");
+		uFTPTemp	 	 = mApp.getProperty("pFTPTemp");
+		uManTemp	 	 = mApp.getProperty("pManTemp");
+		uPwrHumidcorrect = mApp.getProperty("pPwrHumidcorrect");
+		uRealHumid 		 = mApp.getProperty("pRealHumid");
+    	uFTPHumid 		 = mApp.getProperty("pFTPHumid");
+    	uPwrAlticorrect  = mApp.getProperty("pPwrAlticorrect");
+    	uRealAltitude 	 = mApp.getProperty("pRealAltitude");
+    	uFTPAltitude	 = mApp.getProperty("pFTPAltitude");
 		
 		i = 0;	
-		for (i = 1; i < 6; ++i) {
+		for (i = 1; i < 11; ++i) {
 			Power[i] = 0;
 		}
 		Garminfont = Ui.loadResource(Rez.Fonts.Garmin1);		
@@ -63,12 +61,117 @@ class CiqView extends ExtramemView {
             mHeartrateTime	 = (info.currentHeartRate != null) ? mHeartrateTime+1 : mHeartrateTime;				
            	mElapsedHeartrate= (info.currentHeartRate != null) ? mElapsedHeartrate + info.currentHeartRate : mElapsedHeartrate;
            	
-           	//!Calculate lapCadence
-            mCadenceTime	 = (info.currentCadence != null) ? mCadenceTime+1 : mCadenceTime;
-            mElapsedCadence= (info.currentCadence != null) ? mElapsedCadence + info.currentCadence : mElapsedCadence;
-  
             //! Calculate temperature compensation, B-variables reference cell number from cells of conversion excelsheet  		
             var B6 = 22; 			//! is cell B6
+            if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
+            	PwrCorrFactor = 1;  //! no temperature compensation
+            } else {
+            	if (jTimertime < 300 and uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
+            		PwrCorrFactor = 1;  //! no temperature compensation
+            	} else {
+            		if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
+            			uFTPTemp = 18;
+            			B6 = 18;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+        	    		uFTPAltitude = 200;
+            			uRealAltitude =	200;
+            		} else if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 1) {
+            			uFTPTemp = 18;
+            			B6 = 18;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+    	        		uRealAltitude =	(info.altitude != null) ? info.altitude : 0;
+            		} else if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 2) {
+            			uFTPTemp = 18;
+            			B6 = 18;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+            		} else if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 0) {
+            			uFTPTemp = 18;
+            			B6 = 18;  
+        	    		uFTPAltitude = 200;
+            			uRealAltitude =	200;
+            		} else if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 1) {
+            			uFTPTemp = 18;
+            			B6 = 18;  
+            			uRealAltitude =	(info.altitude != null) ? info.altitude : 0;
+            		} else if (uPwrTempcorrect == 0 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 2) {
+            			uFTPTemp = 18;
+            			B6 = 18;  
+            		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+        	    		uFTPAltitude = 200;
+            			uRealAltitude =	200;
+            		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 1) {
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+    	        		uRealAltitude =	(info.altitude != null) ? info.altitude : 0;
+            		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 2) {
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+            		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 0) {
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
+        	    		uFTPAltitude = 200;
+            			uRealAltitude =	200;
+            		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 1) {
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;
+            			uRealAltitude =	(info.altitude != null) ? info.altitude : 0;  
+            		} else if (uPwrTempcorrect == 1 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 2) {
+            			B6 = (utempunits == false) ? tempeTemp : tempeTemp + utempcalibration/1.8 ;  
+            		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 0) {
+            			B6 = uManTemp;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+        	    		uFTPAltitude = 200;
+            			uRealAltitude =	200;
+            		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 1) {
+            			B6 = uManTemp;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+    	        		uRealAltitude =	(info.altitude != null) ? info.altitude : 0;
+            		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 0 and uPwrAlticorrect == 2) {
+            			B6 = uManTemp;  
+	            		uFTPHumid = 70;
+    	        		uRealHumid = 70;
+            		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 0) {
+            			B6 = uManTemp;  
+        	    		uFTPAltitude = 200;
+            			uRealAltitude =	200;
+            		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 1) {
+            			B6 = uManTemp;
+            			uRealAltitude =	(info.altitude != null) ? info.altitude : 0;  
+            		} else if (uPwrTempcorrect == 2 and uPwrHumidcorrect == 2 and uPwrAlticorrect == 2) {
+            			B6 = uManTemp;  
+            		}
+
+					var B22 = 101325 * Math.pow((B6+273.15)/((B6+273.15)+(-0.0065 * uRealAltitude)) , ((9.80665 * 0.0289644) / (8.31432 * -0.0065))) * 0.00750062;
+					var B23 = 101325 * Math.pow((uFTPTemp+273.15)/((uFTPTemp+273.15)+(-0.0065 * uFTPAltitude)) , ((9.80665 * 0.0289644) / (8.31432 * -0.0065))) * 0.00750062;
+					var B24 = (-174.1448622 + 1.0899959 * B22 + -1.5119*0.001 * Math.pow(B22 , 2) + 0.72674 * Math.pow(10 , -6) * Math.pow(B22 , 3)) / 100;
+					var B25 = (-174.1448622 + 1.0899959 * B23 + -1.5119*0.001 * Math.pow(B23 , 2) + 0.72674 * Math.pow(10 , -6) * Math.pow(B23 , 3)) / 100;
+					var B36 = (257.14 * (Math.ln(Math.pow(2.718281828459, ((18.678-B6/234.5)*(B6/(257.14+B6))))*uRealHumid/100)) / (18.678-(Math.ln(Math.pow(2.718281828459, ((18.678-B6/234.5)*(B6/(257.14+B6))))*uRealHumid/100)))) * 1.8 + 32;
+					var B37 = (257.14 * (Math.ln(Math.pow(2.718281828459, ((18.678-uFTPTemp/234.5)*(uFTPTemp/(257.14+uFTPTemp))))*uFTPHumid/100)) / (18.678-(Math.ln(Math.pow(2.718281828459, ((18.678-uFTPTemp/234.5)*(uFTPTemp/(257.14+uFTPTemp))))*uFTPHumid/100)))) * 1.8 + 32;
+					var B38;
+					var Btemp = B36+B6*1.8+32; 
+					if ((Btemp) > 100) {
+						B38 = 0.001341 * Math.pow((Btemp) , 2) - 0.249517 * Math.pow((Btemp) , 1) + 11.699986;   
+					} else {
+			    		B38 = 0;
+					}	
+					Btemp = B37+uFTPTemp*1.8+32;
+					var B39;	
+					if ((Btemp) > 100) {
+						B39 = 0.001341 * Math.pow((Btemp) , 2) - 0.249517 * Math.pow((Btemp) , 1) + 11.699986;
+					} else {
+				    	B39 = 0;
+					}      
+					PwrCorrFactor = 1- (B24 - B25) - (B39-B38)/100;
+				}
+			}
            	
             //!Calculate lappower
             mPowerTime		 = (info.currentPower != null) ? mPowerTime+1 : mPowerTime;
@@ -106,6 +209,11 @@ class CiqView extends ExtramemView {
         }
         if (currentPowertest > 0) {
             if (currentPowertest > 0) {
+        		Power[10] 								= Power[9];
+        		Power[9] 								= Power[8];
+        		Power[8] 								= Power[7];
+        		Power[7] 								= Power[6];
+        		Power[6] 								= Power[5];
         		Power[5] 								= Power[4];
         		Power[4] 								= Power[3];
         		Power[3] 								= Power[2];
@@ -114,7 +222,8 @@ class CiqView extends ExtramemView {
         			Power[1]								= runPower; 
         		} else {
         			Power[1]								= 0;
-				}
+				}        		
+				AveragePower10sec	= (Power1+Power[2]+Power[3]+Power[4]+Power[5]+Power[6]+Power[7]+Power[8]+Power[9]+Power[10])/10;
 				AveragePower5sec	= (Power[1]+Power[2]+Power[3]+Power[4]+Power[5])/5;
 				AveragePower3sec	= (Power[1]+Power[2]+Power[3])/3;
 			}
@@ -156,11 +265,7 @@ class CiqView extends ExtramemView {
             } else if (metric[i] == 104) {
     	        fieldValue[i] =  AveragePower;     	        
         	    fieldLabel[i] = "Av Pzone";
-            	fieldFormat[i] = "1decimal";           	
-			} else if (metric[i] == 17) {
-	            fieldValue[i] = Averagespeedinmpersec;
-    	        fieldLabel[i] = "Pc ..sec";
-        	    fieldFormat[i] = "pace";            	
+            	fieldFormat[i] = "1decimal";           	          	
 			} else if (metric[i] == 55) {   
             	if (info.currentSpeed == null or info.currentSpeed==0) {
             		fieldValue[i] = 0;
@@ -305,12 +410,7 @@ class CiqView extends ExtramemView {
         mLastLapElapsedHeartrate 	= (info.currentHeartRate != null) ? mElapsedHeartrate - mLastLapHeartrateMarker : 0;
         mLastLapHeartrateMarker     = mElapsedHeartrate;
         mLastLapTimeHRMarker        = mHeartrateTime;
-        
-        mLastLapTimerTimeCadence	= mHeartrateTime - mLastLapTimeCadenceMarker;
-        mLastLapElapsedCadence 		= (info.currentCadence != null) ? mElapsedCadence - mLastLapCadenceMarker : 0;
-        mLastLapCadenceMarker     	= mElapsedCadence;
-        mLastLapTimeCadenceMarker   = mCadenceTime;
-
+  
         mLastLapTimerTimePwr		= mPowerTime - mLastLapTimePwrMarker;
         mLastLapElapsedPower  		= (info.currentPower != null) ? mElapsedPower - mLastLapPowerMarker : 0;
         mLastLapPowerMarker         = mElapsedPower;
