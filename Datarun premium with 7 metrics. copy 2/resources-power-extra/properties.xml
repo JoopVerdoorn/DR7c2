@@ -247,8 +247,12 @@
     <string id="lManPwrAlticorrect">Correction based on manual set altitude</string>
     <string id="lRealAltitude">Current altitude, for power correction based on altitude</string>
     <string id="lFTPAltitude">Altitude at which Critical power or FTP is determined, for power correction based on altitude</string>
-    <string id="lCCnumber">C-Code generated on the watch by the corresponding main Datarun premium datafield</string>    
- </strings>
+    <string id="lCCnumber">C-Code generated on the watch by the corresponding main Datarun premium datafield</string>  
+    <string id="lLtarget">Lower power boundary of a workout step, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string> 
+    <string id="lHtarget">Upper power boundary of a workout step, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string>
+    <string id="lLperctarget">Lower power boundary of a workout step in % van FTP, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string> 
+    <string id="lHperctarget">Upper power boundary of a workout step in % van FTP, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string>      
+</strings>
 
   <settings>
   	<setting propertyKey="@Properties.pDummysetting4version" title="@Strings.lDummysetting4version">
@@ -439,6 +443,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>
@@ -560,6 +568,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>
@@ -674,6 +686,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>
@@ -787,6 +803,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>
@@ -900,6 +920,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>
@@ -1022,6 +1046,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>
@@ -1143,6 +1171,10 @@
         <listEntry value="996">@Strings.lSPowerMenu</listEntry>
         <listEntry value="107">@Strings.lPtargetcorrect</listEntry>
         <listEntry value="106">@Strings.lCalcPwrTempcorrect</listEntry>
+        <listEntry value="117">@Strings.lLtarget</listEntry>
+        <listEntry value="118">@Strings.lHtarget</listEntry>
+        <listEntry value="119">@Strings.lLperctarget</listEntry>
+        <listEntry value="120">@Strings.lHperctarget</listEntry>
         <listEntry value="20">@Strings.lSPower</listEntry>
         <listEntry value="57">@Strings.lNPower</listEntry>
         <listEntry value="38">@Strings.lSPowerzone</listEntry>

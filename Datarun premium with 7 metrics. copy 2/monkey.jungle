@@ -47,7 +47,7 @@ fr645.resourcePath 			= resources
 fr245m.resourcePath 		= resources-mem-extra
 fr645m.resourcePath 		= resources-mem-extra
 
-fr745.resourcePath 		= resources-mem-limited
+fr745.resourcePath 		= resources-power-limitedextra
 
 fr935.resourcePath 			= resources-power
 fr735xt.resourcePath 		= resources-power

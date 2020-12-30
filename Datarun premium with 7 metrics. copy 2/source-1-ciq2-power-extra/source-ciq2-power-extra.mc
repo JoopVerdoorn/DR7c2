@@ -32,6 +32,12 @@ class CiqView extends ExtramemView {
     var uFTPHumid 							= 70;
     var uRealAltitude 						= 2;
     var uFTPAltitude 						= 200;
+    var workoutTarget 						;
+    hidden var hasWorkoutStep 				= false;
+    hidden var WorkoutStepLowBoundary		= 0;
+    hidden var WorkoutStepHighBoundary		= 999;
+    hidden var is32kBdevice					= false;
+    
             		            				
     function initialize() {
         ExtramemView.initialize();
@@ -328,6 +334,18 @@ class CiqView extends ExtramemView {
 		mIntensityFactor = (uFTP != 0) ? mNormalizedPow / uFTP : 0;
 		mTTS = (uFTP != 0) ? (jTimertime * mNormalizedPow * mIntensityFactor)/(uFTP * 3600) * 100 : 999;
 
+		if (Activity has :getCurrentWorkoutStep) {
+			workoutTarget = Toybox.Activity.getCurrentWorkoutStep();
+			hasWorkoutStep = true;
+			WorkoutStepLowBoundary = (workoutTarget != null) ? (workoutTarget.step.targetValueLow.toNumber() - 1000) : 0;
+			WorkoutStepHighBoundary = (workoutTarget != null) ? (workoutTarget.step.targetValueHigh.toNumber() - 1000) : 999;
+			WorkoutStepLowBoundary = (uOnlyPwrCorrFactor == false) ? WorkoutStepLowBoundary : WorkoutStepLowBoundary/PwrCorrFactor;
+			WorkoutStepHighBoundary = (uOnlyPwrCorrFactor == false) ? WorkoutStepHighBoundary : WorkoutStepHighBoundary/PwrCorrFactor;
+		} else {
+			hasWorkoutStep = false;
+			WorkoutStepLowBoundary = 0;
+			WorkoutStepHighBoundary = 999;
+		}
 		
 		dc.setColor(mColourFont, Graphics.COLOR_TRANSPARENT);
 		
@@ -530,9 +548,37 @@ class CiqView extends ExtramemView {
     	        fieldLabel[i] = "Pw cor%";
         	    fieldFormat[i] = "2decimal";
         	} else if (metric[i] == 107) {
-	            fieldValue[i] = (uOnlyPwrCorrFactor == false) ? uPowerTarget : uPowerTarget/PwrCorrFactor;
+	            if (hasWorkoutStep == true) {
+        			fieldValue[i] = (WorkoutStepLowBoundary + WorkoutStepHighBoundary)/2;
+        		} else {
+	            	fieldValue[i] = (uOnlyPwrCorrFactor == false) ? uPowerTarget : uPowerTarget/PwrCorrFactor;
+	            }
     	        fieldLabel[i] = "Ptarget";
-        	    fieldFormat[i] = "power";        	    
+        	    fieldFormat[i] = "power";
+        	} else if (metric[i] == 117) {
+	            fieldValue[i] = WorkoutStepLowBoundary;
+    		    fieldLabel[i] = "Ltarget";
+        		fieldFormat[i] = "power";
+        	} else if (metric[i] == 118) {
+	            fieldValue[i] = WorkoutStepHighBoundary;
+        		fieldLabel[i] = "Htarget";
+        	    fieldFormat[i] = "power";
+        	} else if (metric[i] == 119) {
+	            if (hasWorkoutStep == true) {
+	            	fieldValue[i] = (uFTP != 0) ? WorkoutStepLowBoundary*100/uFTP : 0;
+    	        } else {
+        			fieldValue[i] = 0;
+        		}
+        		fieldLabel[i] = "L%target";
+        	    fieldFormat[i] = "power";
+        	} else if (metric[i] == 120) {
+	            if (hasWorkoutStep == true) {
+		            fieldValue[i] = (uFTP != 0) ? WorkoutStepHighBoundary*100/uFTP : 100;
+    	        } else {
+        			fieldValue[i] = 100;
+        		}
+        		fieldLabel[i] = "H%target";
+        	    fieldFormat[i] = "power";
         	} 
         	//!einde invullen field metrics
 		}

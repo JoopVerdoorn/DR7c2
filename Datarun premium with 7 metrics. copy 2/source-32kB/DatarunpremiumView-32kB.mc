@@ -1,6 +1,6 @@
 using Toybox.WatchUi as Ui;
 
-class DatarunpremiumApp extends Toybox.Application.AppBase {
+class Datarunpremiumwith7metricscopy2App extends Toybox.Application.AppBase {
     function initialize() {
         AppBase.initialize();
     }
