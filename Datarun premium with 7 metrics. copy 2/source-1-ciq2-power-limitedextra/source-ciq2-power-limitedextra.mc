@@ -25,6 +25,8 @@ class CiqView extends ExtramemView {
     hidden var hasWorkoutStep 				= false;
     hidden var WorkoutStepLowBoundary		= 0;
     hidden var WorkoutStepHighBoundary		= 999;
+    hidden var is32kBdevice					= false;
+    var AveragePower						= 0;
 
             		            				
     function initialize() {
@@ -250,6 +252,8 @@ class CiqView extends ExtramemView {
 		
 		dc.setColor(mColourFont, Graphics.COLOR_TRANSPARENT);
 		
+		AveragePower = (info.averagePower != null) ? info.averagePower : 0;
+		
 		i = 0; 
 	    for (i = 1; i < 8; ++i) {
 	        if (metric[i] == 38) {
@@ -277,7 +281,7 @@ class CiqView extends ExtramemView {
         	    fieldLabel[i] = "LL Pzone";
             	fieldFormat[i] = "1decimal";
             } else if (metric[i] == 104) {
-    	        fieldValue[i] =  AveragePower;     	        
+    	        fieldValue[i] =  (info.averagePower != null) ? info.averagePower : 0;     	        
         	    fieldLabel[i] = "Av Pzone";
             	fieldFormat[i] = "1decimal";           	          	
 			} else if (metric[i] == 55) {   
@@ -297,7 +301,7 @@ class CiqView extends ExtramemView {
         	    fieldLabel[i] = "LL EI";
             	fieldFormat[i] = "2decimal";
 			} else if (metric[i] == 27) {
-	            fieldValue[i] = (info.averageSpeed != null && AveragePower != 0) ? info.averageSpeed*60/AveragePower : 0;
+	            fieldValue[i] = (info.averageSpeed != null and info.averagePower != null and info.averagePower != 0) ? info.averageSpeed*60/info.averagePower : 0;
     	        fieldLabel[i] = "Avg EI";
         	    fieldFormat[i] = "2decimal";
 			} else if (metric[i] == 31) {

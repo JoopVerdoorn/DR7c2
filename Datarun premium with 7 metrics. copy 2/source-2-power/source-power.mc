@@ -8,7 +8,6 @@ class PowerView extends CiqView {
 	hidden var mLastLapTimePwrMarker			= 0;
     hidden var mLapTimerTimePwr					= 0;	
     hidden var mLastLapTimerTimePwr				= 0;
-	hidden var AveragePower 					= 0; 
 	hidden var LapPower 						= 0; 
 	hidden var LastLapPower 					= 0; 
     var AveragePower3sec  	 					= 0;
@@ -56,7 +55,6 @@ class PowerView extends CiqView {
 		//!Calculate powermetrics
 		var mLapElapsedPower = mElapsedPower - mLastLapPowerMarker;
         
-		AveragePower = Math.round((mPowerTime != 0) ? mElapsedPower/mPowerTime : 0);  
 		LapPower = (mLapTimerTimePwr != 0) ? Math.round(mLapElapsedPower/mLapTimerTimePwr) : 0; 	
 		LastLapPower = (mLastLapTimerTimePwr != 0) ? Math.round(mLastLapElapsedPower/mLastLapTimerTimePwr) : 0;
 
@@ -90,7 +88,7 @@ class PowerView extends CiqView {
         if (Activity has :getCurrentWorkoutStep) {
         	if (is32kBdevice == false) {
 	        	mPowerWarningunder = WorkoutStepLowBoundary;
-    	    	mPowerWarningupper = (mPowerWarningupper > 0) ? WorkoutStepHighBoundary : 999;
+    	    	mPowerWarningupper = (WorkoutStepHighBoundary > 0) ? WorkoutStepHighBoundary : 999;
         	}
         }
 
@@ -152,7 +150,7 @@ class PowerView extends CiqView {
             	fieldLabel[i] = "LL Pwr";
             	fieldFormat[i] = "0decimal";
 	        } else if (metric[i] == 24) {
-    	        fieldValue[i] = AveragePower;
+    	        fieldValue[i] = (info.averagePower != null) ? info.averagePower : 0;
         	    fieldLabel[i] = "A Power";
             	fieldFormat[i] = "0decimal";   
 			}
