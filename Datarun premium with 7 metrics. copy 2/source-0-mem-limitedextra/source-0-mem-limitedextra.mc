@@ -11,7 +11,6 @@ class ExtramemView extends DatarunpremiumView {
 	hidden var mZone 						= [1, 2, 3, 4, 5, 6, 7, 8];
 	var uBlackBackground 					= false;    	
 	var Averagespeedinmpersec 				= 0;
-	var uClockFieldMetric 					= 38; //! Powerzone is default
 	var HRzone								= 0;
 	hidden var Powerzone					= 0;
 	var VertPace							= [1, 2, 3, 4, 5, 6];
@@ -37,7 +36,6 @@ class ExtramemView extends DatarunpremiumView {
     function initialize() {
         DatarunpremiumView.initialize();
 		var mApp 		 		= Application.getApp();
-		uClockFieldMetric 		= mApp.getProperty("pClockFieldMetric");
 		uBlackBackground    	= mApp.getProperty("pBlackBackground");
 		uGarminColors			= mApp.getProperty("pGarminColors");
         uHrZones 				= UserProfile.getHeartRateZones(UserProfile.getCurrentSport());

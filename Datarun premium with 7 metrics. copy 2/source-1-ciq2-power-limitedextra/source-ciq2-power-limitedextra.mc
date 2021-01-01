@@ -348,9 +348,13 @@ class CiqView extends ExtramemView {
     	        fieldValue[i] = (uFTP != 0) ? AveragePower10sec*100/uFTP : 0;
         	    fieldLabel[i] = "%FTP 10s";
             	fieldFormat[i] = "power";
-			} else if (metric[i] == 78) {
-	            fieldValue[i] = (uFTP != 0) ? Averagepowerpersec*100/uFTP : 0;
-    	        fieldLabel[i] = "%FTP ..sec";
+            } else if (metric[i] == 107) {
+	            if (hasWorkoutStep == true) {
+        			fieldValue[i] = (WorkoutStepLowBoundary + WorkoutStepHighBoundary)/2;
+        		} else {
+	            	fieldValue[i] = (uOnlyPwrCorrFactor == false) ? uPowerTarget : uPowerTarget/PwrCorrFactor;
+	            }
+    	        fieldLabel[i] = "Ptarget";
         	    fieldFormat[i] = "power";
         	} else if (metric[i] == 117) {
 	            fieldValue[i] = WorkoutStepLowBoundary;
