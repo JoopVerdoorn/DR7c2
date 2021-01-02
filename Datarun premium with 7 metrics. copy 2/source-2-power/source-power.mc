@@ -136,23 +136,23 @@ class PowerView extends CiqView {
         	if (metric[i] == 20) {
             	fieldValue[i] = (info.currentPower != null) ? runPower : 0;
             	fieldLabel[i] = "Power";
-            	fieldFormat[i] = "0decimal";   
+            	fieldFormat[i] = "power";   
 	        } else if (metric[i] == 21) {
     	        fieldValue[i] = AveragePower3sec;
         	    fieldLabel[i] = "Pwr 3s";
-            	fieldFormat[i] = "0decimal";
+            	fieldFormat[i] = "power";
 			} else if (metric[i] == 22) {
     	        fieldValue[i] = LapPower;
         	    fieldLabel[i] = "L Power";
-            	fieldFormat[i] = "0decimal";
+            	fieldFormat[i] = "power";
 			} else if (metric[i] == 23) {
         	    fieldValue[i] = LastLapPower;
             	fieldLabel[i] = "LL Pwr";
-            	fieldFormat[i] = "0decimal";
+            	fieldFormat[i] = "power";
 	        } else if (metric[i] == 24) {
     	        fieldValue[i] = (info.averagePower != null) ? info.averagePower : 0;
         	    fieldLabel[i] = "A Power";
-            	fieldFormat[i] = "0decimal";   
+            	fieldFormat[i] = "power";   
 			}
 		}
 	}
