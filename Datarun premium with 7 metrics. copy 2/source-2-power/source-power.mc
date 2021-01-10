@@ -17,6 +17,9 @@ class PowerView extends CiqView {
 	var vibrateseconds 							= 0;  
 	hidden var uLapPwr4alerts 					= false;
     hidden var runPower							= 0;
+    hidden var overruleWourkout					= false;
+    hidden var mPowerWarningunder				= 0;
+    hidden var mPowerWarningupper 				= 999;
         
     function initialize() {
         CiqView.initialize();
@@ -24,7 +27,8 @@ class PowerView extends CiqView {
          uRequiredPower		 = mApp.getProperty("pRequiredPower");
          uWarningFreq		 = mApp.getProperty("pWarningFreq");
          uAlertbeep			 = mApp.getProperty("pAlertbeep");
-         uLapPwr4alerts      = mApp.getProperty("pLapPwr4alerts");       
+         uLapPwr4alerts      = mApp.getProperty("pLapPwr4alerts");  
+         overruleWourkout	 = mApp.getProperty("poverruleWourkout");     
     }
 	
     //! Current activity is ended
@@ -80,15 +84,20 @@ class PowerView extends CiqView {
 
 		//! Alert when out of predefined powerzone
 		//!Calculate power metrics
-        var mPowerWarningunder = uRequiredPower.substring(0, 3);
-        var mPowerWarningupper = uRequiredPower.substring(4, 7);
+        mPowerWarningunder = uRequiredPower.substring(0, 3);
+        mPowerWarningupper = uRequiredPower.substring(4, 7);
         mPowerWarningunder = mPowerWarningunder.toNumber();
         mPowerWarningupper = mPowerWarningupper.toNumber(); 
 
-        if (Activity has :getCurrentWorkoutStep) {
+        if (Activity has :getCurrentWorkoutStep and overruleWourkout == false) {
         	if (is32kBdevice == false) {
-	        	mPowerWarningunder = WorkoutStepLowBoundary;
-    	    	mPowerWarningupper = (WorkoutStepHighBoundary > 0) ? WorkoutStepHighBoundary : 999;
+	        	if (WorkoutStepHighBoundary > 0) {
+	        		mPowerWarningunder = WorkoutStepLowBoundary;
+    	    		mPowerWarningupper = WorkoutStepHighBoundary; 
+        		} else {
+        			mPowerWarningunder = 0;
+        			mPowerWarningupper = 999;
+        		}
         	}
         }
 

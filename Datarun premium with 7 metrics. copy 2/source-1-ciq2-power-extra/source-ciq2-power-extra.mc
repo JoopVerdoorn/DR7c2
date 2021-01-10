@@ -551,7 +551,7 @@ class CiqView extends ExtramemView {
         	    fieldFormat[i] = "2decimal";
         	} else if (metric[i] == 107) {
 	            if (hasWorkoutStep == true) {
-        			fieldValue[i] = (WorkoutStepLowBoundary + WorkoutStepHighBoundary)/2;
+        			fieldValue[i] = (mPowerWarningunder + mPowerWarningupper)/2;
         		} else {
 	            	fieldValue[i] = (uOnlyPwrCorrFactor == false) ? uPowerTarget : uPowerTarget/PwrCorrFactor;
 	            }

@@ -53,13 +53,14 @@
     <property id="pFTPAltitude" type="number">200</property>
     <property id="pTempeCalibration" type="number">0</property>
     <property id="pCCnumber" type="number">9999999</property>
+    <property id="poverruleWourkout" type="boolean">false</property>
   </properties>
 
 	
   <strings>
     <string id="AppName">Datarun premium with 7 metrics, copy 2 version</string>
-    <string id="AppVersion">2.30b</string>
-    <string id="lDummysetting4version">Version 2.30b of Datarun premium with 7 metrics, copy 2 version (dummy setting)</string>
+    <string id="AppVersion">2.30d</string>
+    <string id="lDummysetting4version">Version 2.30d of Datarun premium with 7 metrics, copy 2 version (dummy setting)</string>
 	<string id="lTimeMenu">___Time items___</string>
 	<string id="lDistanceMenu">___Distance items___</string>
 	<string id="lPaceMenu">___Pace items___</string>
@@ -126,7 +127,7 @@
 	<string id="lLLHeartrate">Last lap heartrate</string>   
 	<string id="lFTP">Functional treshold power, needed for Intensity factor and Training stress score</string>
 	<string id="lCP">Critical power, needed for Running Stress Score</string>
-    <string id="lRequiredPower">Boundaries for warning signal, a format required like (227:284)</string> 
+    <string id="lRequiredPower">Boundaries of a static powerzone for warning signal, a format required like (227:284)</string> 
     <string id="lWarningFreq">Frequency for the warning signal for operating out of powerzone</string>
     <string id="lAlertbeep">Play sound as warning signal for operating out of powerzone</string> 
     <string id="lLapPwr4alerts">Use lap power for alerts instead of current power</string>  
@@ -226,7 +227,8 @@
     <string id="lLtarget">Lower power boundary of a workout step, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string> 
     <string id="lHtarget">Upper power boundary of a workout step, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string>
     <string id="lLperctarget">Lower power boundary of a workout step in % van FTP, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string> 
-    <string id="lHperctarget">Upper power boundary of a workout step in % van FTP, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string>      
+    <string id="lHperctarget">Upper power boundary of a workout step in % van FTP, from Training peaks etc, corrected by temperature/humidity/altitude if set in settings</string>   
+    <string id="loverruleWourkout">Use a static powerzone for alerts, not powerzones from workout steps</string>   
 </strings>
 
   <settings>
@@ -326,6 +328,9 @@
     <setting propertyKey="@Properties.pRequiredPower" title="@Strings.lRequiredPower">
       <settingConfig type="alphaNumeric"  required="true"/>
     </setting>   
+    <setting propertyKey="@Properties.poverruleWourkout" title="@Strings.loverruleWourkout">
+      <settingConfig type="boolean" required="false" />
+    </setting>
     <setting propertyKey="@Properties.pWarningFreq" title="@Strings.lWarningFreq">
       <settingConfig type="numeric" />
     </setting>    
