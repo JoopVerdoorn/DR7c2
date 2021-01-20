@@ -182,13 +182,13 @@ class CiqView extends ExtramemView {
 			}
            	
             //!Calculate lappower
-            mPowerTime		 = (info.currentPower != null) ? mPowerTime+1 : mPowerTime;
+            mPowerTime		 = (info.currentPower != null and mTimerRunning) ? mPowerTime+1 : mPowerTime;
             if (uOnlyPwrCorrFactor == false) {
             	runPower 		 = (info.currentPower != null) ? (info.currentPower+0.001)*PwrCorrFactor : 0;
             } else {
             	runPower 		 = (info.currentPower != null) ? info.currentPower : 0;
             }
-			mElapsedPower    = mElapsedPower + runPower;
+			mElapsedPower    = (mTimerRunning) ? mElapsedPower + runPower : mElapsedPower;
 				 			             
         }
 	}
