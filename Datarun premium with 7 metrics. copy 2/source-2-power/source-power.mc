@@ -17,7 +17,7 @@ class PowerView extends CiqView {
 	var vibrateseconds 							= 0;  
 	hidden var uLapPwr4alerts 					= false;
     hidden var runPower							= 0;
-    hidden var overruleWourkout					= false;
+    var overruleWourkout					= false;
     hidden var mPowerWarningunder				= 0;
     hidden var mPowerWarningupper 				= 999;
     hidden var AveragePower 					= 0;
@@ -59,7 +59,7 @@ class PowerView extends CiqView {
 
 		//!Calculate powermetrics
 		var mLapElapsedPower = mElapsedPower - mLastLapPowerMarker;
-        AveragePower = Math.round((mPowerTime != 0) ? mElapsedPower/mPowerTime : 0); 
+        AveragePower = Math.round((mPowerTime != 0) ? mElapsedPower/mPowerTime : 0);
 		LapPower = (mLapTimerTimePwr != 0) ? Math.round(mLapElapsedPower/mLapTimerTimePwr) : 0; 	
 		LastLapPower = (mLastLapTimerTimePwr != 0) ? Math.round(mLastLapElapsedPower/mLastLapTimerTimePwr) : 0;
 

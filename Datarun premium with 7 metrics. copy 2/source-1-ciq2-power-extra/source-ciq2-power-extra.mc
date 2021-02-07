@@ -37,6 +37,7 @@ class CiqView extends ExtramemView {
     hidden var WorkoutStepLowBoundary		= 0;
     hidden var WorkoutStepHighBoundary		= 999;
     hidden var is32kBdevice					= false;
+    var AveragePower						= 0;
     
             		            				
     function initialize() {

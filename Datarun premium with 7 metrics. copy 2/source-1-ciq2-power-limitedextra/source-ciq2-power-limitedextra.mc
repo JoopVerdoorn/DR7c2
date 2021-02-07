@@ -26,7 +26,6 @@ class CiqView extends ExtramemView {
     hidden var WorkoutStepLowBoundary		= 0;
     hidden var WorkoutStepHighBoundary		= 999;
     hidden var is32kBdevice					= false;
-    var AveragePower						= 0;
 
             		            				
     function initialize() {
@@ -251,8 +250,6 @@ class CiqView extends ExtramemView {
 		}
 		
 		dc.setColor(mColourFont, Graphics.COLOR_TRANSPARENT);
-		
-		AveragePower = (info.averagePower != null) ? info.averagePower : 0;
 		
 		i = 0; 
 	    for (i = 1; i < 8; ++i) {

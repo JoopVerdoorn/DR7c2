@@ -228,7 +228,7 @@ class DatarunpremiumView extends Ui.DataField {
 				Averagespeedinmper3sec= (uRoundedPace) ? unitP/(Math.round( (unitP/(Pace1+Pace2+Pace3)*3) / 5 ) * 5) : (Pace1+Pace2+Pace3)/3;
 				CurrentSpeedinmpersec= (uRoundedPace) ? unitP/(Math.round( unitP/CurrentSpeedinmpersec / 5 ) * 5) : CurrentSpeedinmpersec;
 		}
-
+		
         var mRacehour = uRacetime.substring(0, 2);
         var mRacemin = uRacetime.substring(3, 5);
         var mRacesec = uRacetime.substring(6, 8);
