@@ -38,6 +38,20 @@ class CiqView extends ExtramemView {
     hidden var WorkoutStepHighBoundary		= 999;
     hidden var is32kBdevice					= false;
     var AveragePower						= 0;
+    var WorkoutStepNr						= 0;
+    var WorkoutStepDuration 				= 0; 
+    var StartTimeNewStep					= 0;
+    var StartDistanceNewStep				= 0;
+    var RemainingWorkoutTime  				= 0;
+    var RemainingWorkoutDistance			= 0;
+    var WorkoutStepDurationType  			= 9;
+    hidden var AveragePower3sec  	 		= 0;
+    hidden var AveragePower5sec  	 		= 0;
+    hidden var AveragePower10sec  	 		= 0;
+    hidden var mFontalertColorLow			= Graphics.COLOR_RED;
+    var uFontalertColorLow					= 5;
+    hidden var mFontalertColorHigh			= Graphics.COLOR_PURPLE;
+    var uFontalertColorHigh					= 4;
     
             		            				
     function initialize() {
@@ -61,9 +75,48 @@ class CiqView extends ExtramemView {
     	uPwrAlticorrect  = mApp.getProperty("pPwrAlticorrect");
     	uRealAltitude 	 = mApp.getProperty("pRealAltitude");
     	uFTPAltitude	 = mApp.getProperty("pFTPAltitude");
+    	uFontalertColorLow = mApp.getProperty("pFontalertColorLow");
+    	uFontalertColorHigh = mApp.getProperty("pFontalertColorHigh");
 	
 		uRealHumid = (uRealHumid != 0 ) ? uRealHumid : 1;
 		uFTPHumid = (uFTPHumid != 0 ) ? uFTPHumid : 1;
+		
+		//! Choose fontcolor for alert when power value is under or above powerzone
+        if ( uFontalertColorLow == 0 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_GREEN;
+	    } else if ( uFontalertColorLow == 1 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_BLUE;
+		} else if ( uFontalertColorLow == 2 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_DK_GRAY;
+		} else if ( uFontalertColorLow == 3 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_WHITE;
+		} else if ( uFontalertColorLow == 4 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_PURPLE;
+		} else if ( uFontalertColorLow == 5 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_RED;
+		} else if ( uFontalertColorLow == 6 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_BLACK;
+	   	} else if ( uFontalertColorLow == 7 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_DK_BLUE;
+		}
+
+		if ( uFontalertColorHigh == 0 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_GREEN;
+	    } else if ( uFontalertColorHigh == 1 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_BLUE;
+		} else if ( uFontalertColorHigh == 2 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_DK_GRAY;
+		} else if ( uFontalertColorHigh == 3 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_WHITE;
+		} else if ( uFontalertColorHigh == 4 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_PURPLE;
+		} else if ( uFontalertColorHigh == 5 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_RED;
+		} else if ( uFontalertColorHigh == 6 ) {
+	    	mFontalertColorHigh 	 = Graphics.COLOR_BLACK;
+	    } else if ( uFontalertColorLow == 7 ) {
+	    	mFontalertColorLow 	 = Graphics.COLOR_DK_BLUE;
+		}
 		
 		if (utempunits == true ) {
 			uFTPTemp = (uFTPTemp-32)/1.8;
@@ -80,13 +133,13 @@ class CiqView extends ExtramemView {
 		for (i = 1; i < 11; ++i) {
 			Power[i] = 0;
 		}
-		if (ID0 == 3588 or ID0 == 3832 or ID0 == 3624 or ID0 == 3952 or ID0 == 3762 or ID0 == 3962 or ID0 == 3761 or ID0 == 3961 or ID0 == 3757 or ID0 == 3931 or ID0 == 3758 or ID0 == 3932 or ID0 == 3759 or ID0 == 3959 or ID0 == 3798 or ID0 == 4023 or ID0 == 3799 or ID0 == 4024) {
-			Garminfont = Ui.loadResource(Rez.Fonts.Garmin1);		
-		} else if (ID0 == 3801 or ID0 == 4026 ) {
+		if (mySettings.screenWidth == 260 and mySettings.screenHeight == 260) {
 			Garminfont = Ui.loadResource(Rez.Fonts.Garmin2);
-		} else if (ID0 == 3802 or ID0 == 4027 ) {
+		} else if (mySettings.screenWidth == 280 and mySettings.screenHeight == 280) {
 			Garminfont = Ui.loadResource(Rez.Fonts.Garmin3);
-		}	
+		} else {
+			Garminfont = Ui.loadResource(Rez.Fonts.Garmin1);
+		}
     }
 
 
@@ -240,15 +293,25 @@ class CiqView extends ExtramemView {
         }
 	}
 
-    //! Store last lap quantities and set lap markers after a lap
     function onTimerLap() {
 		Lapaction ();
 	}
 
 	//! Store last lap quantities and set lap markers after a step within a structured workout
 	function onWorkoutStepComplete() {
+	var info = Activity.getActivityInfo();
 		Lapaction ();
+		++WorkoutStepNr;		
+		StartTimeNewStep = jTimertime;
+        StartDistanceNewStep = (info.elapsedDistance != null) ? info.elapsedDistance / unitD : 0;
 	}
+
+	function onWorkoutStarted() {
+        var info = Activity.getActivityInfo();
+        WorkoutStepNr = 1;
+        StartTimeNewStep = jTimertime;
+        StartDistanceNewStep = (info.elapsedDistance != null) ? info.elapsedDistance / unitD : 0;
+    }
 
 	function onUpdate(dc) {
 		//! call the parent onUpdate to do the base logic
@@ -278,7 +341,7 @@ class CiqView extends ExtramemView {
         		} else {
         			Power[1]								= 0;
 				}        		
-				AveragePower10sec	= (Power1+Power[2]+Power[3]+Power[4]+Power[5]+Power[6]+Power[7]+Power[8]+Power[9]+Power[10])/10;
+				AveragePower10sec	= (Power[1]+Power[2]+Power[3]+Power[4]+Power[5]+Power[6]+Power[7]+Power[8]+Power[9]+Power[10])/10;
 				AveragePower5sec	= (Power[1]+Power[2]+Power[3]+Power[4]+Power[5])/5;
 				AveragePower3sec	= (Power[1]+Power[2]+Power[3])/3;
 			}
@@ -335,17 +398,38 @@ class CiqView extends ExtramemView {
 		mIntensityFactor = (uFTP != 0) ? mNormalizedPow / uFTP : 0;
 		mTTS = (uFTP != 0) ? (jTimertime * mNormalizedPow * mIntensityFactor)/(uFTP * 3600) * 100 : 999;
 
+		var ElapsedDistance = (info.elapsedDistance != null) ? info.elapsedDistance / unitD : 0;
 		if (Activity has :getCurrentWorkoutStep) {
 			workoutTarget = Toybox.Activity.getCurrentWorkoutStep();
 			hasWorkoutStep = true;
 			WorkoutStepLowBoundary = (workoutTarget != null) ? (workoutTarget.step.targetValueLow.toNumber() - 1000) : 0;
 			WorkoutStepHighBoundary = (workoutTarget != null) ? (workoutTarget.step.targetValueHigh.toNumber() - 1000) : 999;
+			WorkoutStepLowBoundary = (WorkoutStepLowBoundary == -1000) ? WorkoutStepLowBoundary+1000 : WorkoutStepLowBoundary; 
+			WorkoutStepHighBoundary = (WorkoutStepHighBoundary == -1000) ? WorkoutStepHighBoundary+1000 : WorkoutStepHighBoundary;
 			WorkoutStepLowBoundary = (uOnlyPwrCorrFactor == false) ? WorkoutStepLowBoundary : WorkoutStepLowBoundary/PwrCorrFactor;
 			WorkoutStepHighBoundary = (uOnlyPwrCorrFactor == false) ? WorkoutStepHighBoundary : WorkoutStepHighBoundary/PwrCorrFactor;
+			WorkoutStepDurationType = (workoutTarget != null) ? workoutTarget.step.durationType.toNumber() : 0;
+
+			if (workoutTarget != null) {
+				WorkoutStepDuration = (workoutTarget.step.durationValue != null) ? workoutTarget.step.durationValue.toNumber() : 9999999;
+			} else {
+				WorkoutStepDuration = 0;
+			}
+
+			if (WorkoutStepDurationType == 0) {
+				RemainingWorkoutTime = WorkoutStepDuration - (jTimertime - StartTimeNewStep);
+			} else if (WorkoutStepDurationType == 1) {
+				RemainingWorkoutDistance = WorkoutStepDuration/unitD - (ElapsedDistance - StartDistanceNewStep);
+			} else if (WorkoutStepDuration == 9999999) {
+				RemainingWorkoutDistance = 0;
+			}
+			
 		} else {
 			hasWorkoutStep = false;
 			WorkoutStepLowBoundary = 0;
 			WorkoutStepHighBoundary = 999;
+			RemainingWorkoutTime = 0;
+			RemainingWorkoutDistance = 0;
 		}
 		
 		dc.setColor(mColourFont, Graphics.COLOR_TRANSPARENT);
@@ -455,7 +539,7 @@ class CiqView extends ExtramemView {
 			} else if (metric[i] == 57) {
 	            fieldValue[i] = mNormalizedPow;
     	        fieldLabel[i] = "N Power";
-        	    fieldFormat[i] = "0decimal";
+        	    fieldFormat[i] = "power";
 	        } else if (metric[i] == 80) {
     	        fieldValue[i] = (info.maxPower != null) ? info.maxPower : 0;
         	    fieldLabel[i] = "Max Pwr";
@@ -463,35 +547,35 @@ class CiqView extends ExtramemView {
 			} else if (metric[i] == 71) {
             	fieldValue[i] = (uFTP != 0) ? runPower*100/uFTP : 0;
             	fieldLabel[i] = "%FTP";
-            	fieldFormat[i] = "power";   
+            	fieldFormat[i] = "0decimal";   
 	        } else if (metric[i] == 72) {
     	        fieldValue[i] = (uFTP != 0) ? AveragePower3sec*100/uFTP : 0;
         	    fieldLabel[i] = "%FTP 3s";
-            	fieldFormat[i] = "power";     	
+            	fieldFormat[i] = "0decimal";     	
 			} else if (metric[i] == 73) {
     	        fieldValue[i] = (uFTP != 0) ? LapPower*100/uFTP : 0;
         	    fieldLabel[i] = "L %FTP";
-            	fieldFormat[i] = "power";
+            	fieldFormat[i] = "0decimal";
 			} else if (metric[i] == 74) {
         	    fieldValue[i] = (uFTP != 0) ? LastLapPower*100/uFTP : 0;
             	fieldLabel[i] = "LL %FTP";
-            	fieldFormat[i] = "power";
+            	fieldFormat[i] = "0decimal";
 	        } else if (metric[i] == 75) {
     	        fieldValue[i] = (uFTP != 0) ? AveragePower*100/uFTP : 0;
         	    fieldLabel[i] = "A %FTP";
-            	fieldFormat[i] = "power";  
+            	fieldFormat[i] = "0decimal";  
 	        } else if (metric[i] == 76) {
     	        fieldValue[i] = (uFTP != 0) ? AveragePower5sec*100/uFTP : 0;
         	    fieldLabel[i] = "%FTP 5s";
-            	fieldFormat[i] = "power";
+            	fieldFormat[i] = "0decimal";
 			} else if (metric[i] == 77) {
     	        fieldValue[i] = (uFTP != 0) ? AveragePower10sec*100/uFTP : 0;
         	    fieldLabel[i] = "%FTP 10s";
-            	fieldFormat[i] = "power";
+            	fieldFormat[i] = "0decimal";
 			} else if (metric[i] == 78) {
 	            fieldValue[i] = (uFTP != 0) ? Averagepowerpersec*100/uFTP : 0;
     	        fieldLabel[i] = "%FTP ..sec";
-        	    fieldFormat[i] = "power";
+        	    fieldFormat[i] = "0decimal";
 			} else if (metric[i] == 58) {
 	            fieldValue[i] = mIntensityFactor;
     	        fieldLabel[i] = "IF";
@@ -549,40 +633,92 @@ class CiqView extends ExtramemView {
     	        fieldLabel[i] = "Pw cor%";
         	    fieldFormat[i] = "2decimal";
         	} else if (metric[i] == 107) {
-	            if (hasWorkoutStep == true) {
-        			fieldValue[i] = (mPowerWarningunder + mPowerWarningupper)/2;
+	            if (workoutTarget != null) {
+        			fieldValue[i] = (uOnlyPwrCorrFactor == false) ? (mPowerWarningunder + mPowerWarningupper)/2 : (mPowerWarningunder + mPowerWarningupper)/2/PwrCorrFactor;
         		} else {
 	            	fieldValue[i] = (uOnlyPwrCorrFactor == false) ? uPowerTarget : uPowerTarget/PwrCorrFactor;
 	            }
     	        fieldLabel[i] = "Ptarget";
-        	    fieldFormat[i] = "power";
+        	    fieldFormat[i] = "0decimal";
         	} else if (metric[i] == 117) {
-	            fieldValue[i] = WorkoutStepLowBoundary;
+	            fieldValue[i] = (workoutTarget != null) ? WorkoutStepLowBoundary : 0;
     		    fieldLabel[i] = "Ltarget";
-        		fieldFormat[i] = "power";
+        		fieldFormat[i] = "0decimal";
         	} else if (metric[i] == 118) {
-	            fieldValue[i] = WorkoutStepHighBoundary;
+	            fieldValue[i] = (workoutTarget != null) ? WorkoutStepHighBoundary : 0;
         		fieldLabel[i] = "Htarget";
-        	    fieldFormat[i] = "power";
+        	    fieldFormat[i] = "0decimal";
         	} else if (metric[i] == 119) {
-	            if (hasWorkoutStep == true) {
+	            if (workoutTarget != null) {
 	            	fieldValue[i] = (uFTP != 0) ? WorkoutStepLowBoundary*100/uFTP : 0;
     	        } else {
         			fieldValue[i] = 0;
         		}
         		fieldLabel[i] = "L%target";
-        	    fieldFormat[i] = "power";
+        	    fieldFormat[i] = "0decimal";
         	} else if (metric[i] == 120) {
-	            if (hasWorkoutStep == true) {
+	            if (workoutTarget != null) {
 		            fieldValue[i] = (uFTP != 0) ? WorkoutStepHighBoundary*100/uFTP : 100;
     	        } else {
         			fieldValue[i] = 100;
         		}
         		fieldLabel[i] = "H%target";
-        	    fieldFormat[i] = "power";
-        	} 
+        	    fieldFormat[i] = "0decimal";
+        	} else if (metric[i] == 121) {
+	            fieldValue[i] = (workoutTarget != null) ? WorkoutStepNr : 0;
+        		fieldLabel[i] = "Step nr";
+        	    fieldFormat[i] = "0decimal";
+        	} else if (metric[i] == 122) {
+	            if (workoutTarget != null) {
+		            if (WorkoutStepDurationType == 0) {
+						fieldValue[i] = RemainingWorkoutTime;
+						fieldLabel[i] = "Remain T";
+        	    		fieldFormat[i] = "time";
+					} else if (WorkoutStepDurationType == 1) {
+						fieldValue[i] = RemainingWorkoutDistance;
+						fieldLabel[i] = "Remain D";
+        	    		fieldFormat[i] = "2decimal";
+        	    	} else if (WorkoutStepDurationType == 5) {
+						fieldValue[i] = jTimertime-StartTimeNewStep;
+						fieldLabel[i] = "Button";
+        	    		fieldFormat[i] = "time";
+					}     
+    	        } else {
+        			fieldValue[i] = 0;
+        			fieldLabel[i] = "No workout";
+        	    	fieldFormat[i] = "0decimal";
+        		}
+        	}
         	//!einde invullen field metrics
 		}
+		
+		//!Calculation of powerbased clock field metrics
+		if (uClockFieldMetric == 107) {
+			if (workoutTarget != null) {
+        		RealPowerTarget = (uOnlyPwrCorrFactor == false) ? (mPowerWarningunder + mPowerWarningupper)/2 : (mPowerWarningunder + mPowerWarningupper)/2/PwrCorrFactor;
+        	} else {
+	           	RealPowerTarget = (uOnlyPwrCorrFactor == false) ? uPowerTarget : uPowerTarget/PwrCorrFactor;
+	        }
+		} else if (uClockFieldMetric == 121) {
+	        RealWorkoutStepNr = (workoutTarget != null) ? WorkoutStepNr : 0;     
+       	} else if (uClockFieldMetric == 122) {
+            if (workoutTarget != null) {
+	            if (WorkoutStepDurationType == 0) {
+					RealRemainingWorkoutTime = RemainingWorkoutTime;
+					DistinClockfield = false;
+				} else if (WorkoutStepDurationType == 1) {
+					RealRemainingWorkoutTime = RemainingWorkoutDistance;
+					DistinClockfield = true;
+       	    	} else if (WorkoutStepDurationType == 5) {
+					RealRemainingWorkoutTime = jTimertime-StartTimeNewStep;
+					DistinClockfield = false;
+				}     
+   	        } else {
+       			RealRemainingWorkoutTime = 0;
+       			DistinClockfield = false;
+       		}
+		}
+		
 		//! Conditions for showing the demoscreen       
         if (uShowDemo == false) {
         	if (licenseOK == false && jTimertime > 900)  {
@@ -646,24 +782,25 @@ class CiqView extends ExtramemView {
         	Temp = (fieldvalue != 0 ) ? (unitP/fieldvalue).toLong() : 0;
         	fieldvalue = (Temp / 60).format("%0d") + ":" + Math.round(Temp % 60).format("%02d");
         } else if ( fieldformat.equals("power" ) == true ) {   
-        	fieldvalue = Math.round(fieldvalue).toNumber();                 
-        	PowerWarning = (setPowerWarning == 1) ? 1 : PowerWarning;    	
-        	PowerWarning = (setPowerWarning == 2) ? 2 : PowerWarning;
-        	if (PowerWarning == 1) { 
-        		mColourFont = Graphics.COLOR_PURPLE;
-        	} else if (PowerWarning == 2) { 
-        		mColourFont = Graphics.COLOR_RED;
-        	} else if (PowerWarning == 0) { 
-        		mColourFont = originalFontcolor;
-        	}
+        	fieldvalue = Math.round(fieldvalue).toNumber();
+			if (jTimertime != 0) {
+				if (fieldvalue>mPowerWarningupper or fieldvalue<mPowerWarningunder) {	 
+	    			if (fieldvalue>mPowerWarningupper) {
+    					mColourFont = mFontalertColorHigh;
+    				} else if (fieldvalue<mPowerWarningunder){
+    					mColourFont = mFontalertColorLow;
+    				} else  { 
+        				mColourFont = originalFontcolor;
+    				}
+    			} 
+			 }
         } else if ( fieldformat.equals("timeshort" ) == true  ) {
         	Temp = (fieldvalue != 0 ) ? (fieldvalue).toLong() : 0;
         	fieldvalue = (Temp /60000 % 60).format("%02d") + ":" + (Temp /1000 % 60).format("%02d");
         }
         		
 		dc.setColor(mColourFont, Graphics.COLOR_TRANSPARENT);
-        if ( fieldformat.equals("time" ) == true ) {    
-	    	if ( counter == 1 or counter == 2 or counter == 6 or counter == 7 ) {  
+        if ( fieldformat.equals("time" ) == true ) {     
 	    		var fTimerSecs = (fieldvalue % 60).format("%02d");
         		var fTimer = (fieldvalue / 60).format("%d") + ":" + fTimerSecs;  //! Format time as m:ss
 	    		var xx = x;
@@ -675,7 +812,6 @@ class CiqView extends ExtramemView {
             		fTimer = (fieldvalue / 60 % 60).format("%02d") + ":" + fTimerSecs;  
         		}
        			dc.drawText(xx, y, Garminfont, fTimer, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
-        	}
         } else {
        		dc.drawText(x, y, Garminfont, fieldvalue, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
         }        
