@@ -93,6 +93,7 @@ class ExtramemView extends DatarunpremiumView {
     var GPSAccuracy							= "null";
     var screenWidth 						= mySettings.screenWidth;
     hidden var Vertgradsmoothed             = 0;
+    var uLinecolor                          = 1;
 	
     function initialize() {
         DatarunpremiumView.initialize();
@@ -103,14 +104,15 @@ class ExtramemView extends DatarunpremiumView {
 		uGarminColors			= mApp.getProperty("pGarminColors");
         uHrZones 				= UserProfile.getHeartRateZones(UserProfile.getCurrentSport());
         utempunits	 			= mApp.getProperty("ptempunits");
-        disablelabel[1] 			= mApp.getProperty("pdisablelabel1");
-		disablelabel[2] 			= mApp.getProperty("pdisablelabel2");
-		disablelabel[3] 			= mApp.getProperty("pdisablelabel3");
-		disablelabel[4] 			= mApp.getProperty("pdisablelabel4");
-		disablelabel[5] 			= mApp.getProperty("pdisablelabel5");
-		disablelabel[6] 			= mApp.getProperty("pdisablelabel6");
-		disablelabel[7] 			= mApp.getProperty("pdisablelabel7");
-		utempcalibration 			= mApp.getProperty("pTempeCalibration");
+        disablelabel[1] 		= mApp.getProperty("pdisablelabel1");
+		disablelabel[2] 		= mApp.getProperty("pdisablelabel2");
+		disablelabel[3] 		= mApp.getProperty("pdisablelabel3");
+		disablelabel[4] 		= mApp.getProperty("pdisablelabel4");
+		disablelabel[5] 		= mApp.getProperty("pdisablelabel5");
+		disablelabel[6] 		= mApp.getProperty("pdisablelabel6");
+		disablelabel[7] 		= mApp.getProperty("pdisablelabel7");
+		utempcalibration 		= mApp.getProperty("pTempeCalibration");
+		uLinecolor              = mApp.getProperty("pLinecolor");
 		
 		if(Toybox.AntPlus has :RunningDynamics) {
 			dynamics = new Toybox.AntPlus.RunningDynamics(null);
@@ -133,44 +135,69 @@ class ExtramemView extends DatarunpremiumView {
 		var uProfile = Toybox.UserProfile.getProfile();
 		hrRest = (uProfile.restingHeartRate != null) ? uProfile.restingHeartRate : 50;	
 		hrRest = stringOrNumber(hrRest);
+		
+		//! Setup back- and foregroundcolours
+		if ( uLinecolor == 0 ) {
+	    	mColourLine 	 = Graphics.COLOR_GREEN;
+	    } else if ( uLinecolor == 1 ) {
+	    	mColourLine 	 = Graphics.COLOR_BLUE;
+		} else if ( uLinecolor == 2 ) {
+	    	mColourLine 	 = Graphics.COLOR_DK_GRAY;
+		} else if ( uLinecolor == 3 ) {
+	    	mColourLine 	 = Graphics.COLOR_WHITE;
+		} else if ( uLinecolor == 4 ) {
+	    	mColourLine 	 = Graphics.COLOR_PURPLE;
+		} else if ( uLinecolor == 5 ) {
+	    	mColourLine 	 = Graphics.COLOR_RED;
+		} else if ( uLinecolor == 6 ) {
+	    	mColourLine 	 = Graphics.COLOR_BLACK;
+	    } else if ( uLinecolor == 7 ) {
+	    	mColourLine 	 = Graphics.COLOR_DK_BLUE;
+		} else if ( uLinecolor == 8 ) {
+	    	mColourLine 	 = Graphics.COLOR_YELLOW;
+		} else if ( uLinecolor == 9 ) {
+	    	mColourLine 	 = Graphics.COLOR_ORANGE;
+		}
+		
+		//! Setup back- and foregroundcolours
+		if (mySettings.screenWidth == 416 and mySettings.screenHeight == 416 ) {
+			if (uBlackBackground == true ){
+				mColourFont = Graphics.COLOR_WHITE;
+				mColourFont1 = Graphics.COLOR_WHITE;
+				mColourBackGround = Graphics.COLOR_BLACK;
+			} else {
+				mColourFont = Graphics.COLOR_BLACK;
+				mColourFont1 = Graphics.COLOR_BLACK;
+				mColourBackGround = Graphics.COLOR_WHITE;
+			}
+		} else {
+			if (uBlackBackground == true ){
+				mColourFont = Graphics.COLOR_WHITE;
+				mColourFont1 = Graphics.COLOR_WHITE;
+				mColourBackGround = Graphics.COLOR_BLACK;
+			} else {
+				mColourFont = Graphics.COLOR_BLACK;
+				mColourFont1 = Graphics.COLOR_BLACK;
+				mColourBackGround = Graphics.COLOR_WHITE;
+			}
+        }
+		
     }
 
 	function onUpdate(dc) {
 		//! call the parent onUpdate to do the base logic
 		DatarunpremiumView.onUpdate(dc);
 		
-		tempeTemp = (Storage.getValue("mytemp") != null) ? Storage.getValue("mytemp") : 0;
-
-    	//! Setup back- and foregroundcolours
-		if (mySettings.screenWidth == 416 and mySettings.screenHeight == 416 ) {
-			if (uBlackBackground == true ){
-				mColourFont = Graphics.COLOR_WHITE;
-				mColourFont1 = Graphics.COLOR_WHITE;
-				mColourLine = Graphics.COLOR_GREEN;
-				mColourBackGround = Graphics.COLOR_BLACK;
-			} else {
-				mColourFont = Graphics.COLOR_BLACK;
-				mColourFont1 = Graphics.COLOR_BLACK;
-				mColourLine = Graphics.COLOR_BLUE;
-				mColourBackGround = Graphics.COLOR_WHITE;
-			}
+		tempeTemp = (Storage.getValue("mytemp") != null) ? Storage.getValue("mytemp") : 0;		
+        
+        //! Paint background
+        if (mySettings.screenWidth == 416 and mySettings.screenHeight == 416 ) {
 			dc.setColor(mColourBackGround, Graphics.COLOR_TRANSPARENT);
 			dc.fillRectangle (0, 0, 416, 416);
 		} else {
-			if (uBlackBackground == true ){
-				mColourFont = Graphics.COLOR_WHITE;
-				mColourFont1 = Graphics.COLOR_WHITE;
-				mColourLine = Graphics.COLOR_GREEN;
-				mColourBackGround = Graphics.COLOR_BLACK;
-			} else {
-				mColourFont = Graphics.COLOR_BLACK;
-				mColourFont1 = Graphics.COLOR_BLACK;
-				mColourLine = Graphics.COLOR_BLUE;
-				mColourBackGround = Graphics.COLOR_WHITE;
-			}
 			dc.setColor(mColourBackGround, Graphics.COLOR_TRANSPARENT);
 			dc.fillRectangle (0, 0, 280, 280);
-        }		
+        }
         
         //! Calculate lap (Cadence) time
         mLapTimerTimeCadence 	= mCadenceTime - mLastLapTimeCadenceMarker;
@@ -404,7 +431,7 @@ class ExtramemView extends DatarunpremiumView {
 			}
 		}
 
-		//! Show GPS accuracy
+		//! Determine GPS accuracy
         GPSAccuracy=info.currentLocationAccuracy;
         if (GPSAccuracy == null or GPSAccuracy == 1) {
         	mGPScolor = Graphics.COLOR_LT_GRAY;
@@ -417,41 +444,7 @@ class ExtramemView extends DatarunpremiumView {
 		} else {
 		    mGPScolor = Graphics.COLOR_LT_GRAY;
 		}
-		dc.setColor(mGPScolor, Graphics.COLOR_TRANSPARENT);
 		
-		if (screenWidth == 240) {
-			dc.fillRectangle(10, 5, 64, 22); 
-			if (uMilClockAltern == 1) {
-			   dc.fillRectangle(183, 5, 55, 22);
-		    } else {
-		       dc.fillRectangle(165, 5, 55, 22);
-		    }
-		} else if (screenWidth == 260) { 
-			dc.fillRectangle(11, 5, 69, 24); 
-			if (uMilClockAltern == 1) {
-			   dc.fillRectangle(197, 5, 60, 24);
-		    } else {
-		       dc.fillRectangle(178, 5, 60, 24);
-		    }
-		} else if (screenWidth == 280) {
-			dc.fillRectangle(12, 6, 77, 25); 
-			if (uMilClockAltern == 1) {
-			   dc.fillRectangle(211, 6, 64, 25);
-			} else {
-			   dc.fillRectangle(191, 6, 64, 25);
-			}
-		} else if (screenWidth == 416) {
-			dc.fillRectangle(18, 9, 114, 39); 
-			if (uMilClockAltern == 1) {
-			   dc.fillRectangle(313, 9, 95, 39);
-			} else {
-			   dc.fillRectangle(284, 9, 95, 39);
-			}
-		}
-
-		dc.setColor(mColourLine, Graphics.COLOR_TRANSPARENT);
-
-
 		var CFMValue = 0;
         var CFMLabel = "error";
         var CFMFormat = "decimal";  
@@ -746,11 +739,11 @@ class ExtramemView extends DatarunpremiumView {
 		    		}
 			   	} else if ( i == 6 ) {	//!lower row, left
 		   			if (disablelabel[6] == false) {
-		   				Coloring(dc,i,fieldValue[i],"018,217,110,019");
+		   				Coloring(dc,i,fieldValue[i],"018,218,111,019");
 		   			}
 		      	} else if ( i == 7 ) {	//!lower row, right
 		    		if (disablelabel[7] == false) {
-		    			Coloring(dc,i,fieldValue[i],"130,217,108,019");
+		    			Coloring(dc,i,fieldValue[i],"130,218,108,019");
 		    		}
 	    		}       	
 			}		
@@ -770,7 +763,7 @@ class ExtramemView extends DatarunpremiumView {
 					}	
 		   		} else if ( i == 4 ) {	//!middle row, middle
 					if (disablelabel[4] == false) {
-						Coloring(dc,i,fieldValue[i],"086,108,104,020");
+						Coloring(dc,i,fieldValue[i],"086,108,105,020");
 					}
 				} else if ( i == 5 ) {  //!middle row, right		
 					if (disablelabel[5] == false) {
@@ -778,11 +771,11 @@ class ExtramemView extends DatarunpremiumView {
 					}	
 			   	} else if ( i == 6 ) {	//!lower row, left
 					if (disablelabel[6] == false) {
-						Coloring(dc,i,fieldValue[i],"021,235,117,020");
+						Coloring(dc,i,fieldValue[i],"021,235,118,021");
 					}
 				} else if ( i == 7 ) {	//!lower row, right	
 					if (disablelabel[7] == false) {
-						Coloring(dc,i,fieldValue[i],"140,235,117,020");
+						Coloring(dc,i,fieldValue[i],"140,235,117,021");
 					}	
 	    		}        	
 			}	
@@ -810,11 +803,43 @@ class ExtramemView extends DatarunpremiumView {
 					}	
 			   	} else if ( i == 6 ) {	//!lower row, left
 					if (disablelabel[6] == false) {
-						Coloring(dc,i,fieldValue[i],"031,349,176,030");
+						Coloring(dc,i,fieldValue[i],"031,350,176,030");
 					}
 				} else if ( i == 7 ) {	//!lower row, right	
 					if (disablelabel[7] == false) {
-						Coloring(dc,i,fieldValue[i],"208,349,174,030");
+						Coloring(dc,i,fieldValue[i],"208,350,174,030");
+					}	
+	    		}        	
+			}	
+		} else if (mySettings.screenWidth == 218 and mySettings.screenHeight == 218 ) {     //! FR255s(m) labels
+			for (i = 1; i < 8; ++i) {
+			   	if ( i == 1 ) {			//!upper row, left    	
+					if (disablelabel[1] == false) {
+						Coloring(dc,i,fieldValue[i],"016,027,92,016");
+					}	    
+			   	} else if ( i == 2 ) {	//!upper row, right
+					if (disablelabel[2] == false) {
+						Coloring(dc,i,fieldValue[i],"109,027,92,016");
+					}
+				} else if ( i == 3 ) {  //!middle row, left		
+					if (disablelabel[3] == false) {
+						Coloring(dc,i,fieldValue[i],"000,084,066,016");
+					}	
+		   		} else if ( i == 4 ) {	//!middle row, middle
+					if (disablelabel[4] == false) {
+						Coloring(dc,i,fieldValue[i],"067,084,083,016");
+					}
+				} else if ( i == 5 ) {  //!middle row, right		
+					if (disablelabel[5] == false) {
+						Coloring(dc,i,fieldValue[i],"149,084,070,016");
+					}	
+			   	} else if ( i == 6 ) {	//!lower row, left
+					if (disablelabel[6] == false) {
+						Coloring(dc,i,fieldValue[i],"016,183,092,016");
+					}
+				} else if ( i == 7 ) {	//!lower row, right	
+					if (disablelabel[7] == false) {
+						Coloring(dc,i,fieldValue[i],"109,183,091,016");
 					}	
 	    		}        	
 			}	
@@ -842,11 +867,11 @@ class ExtramemView extends DatarunpremiumView {
 		    		}
 			   	} else if ( i == 6 ) {	//!lower row, left
 		   			if (disablelabel[6] == false) {
-		   				Coloring(dc,i,fieldValue[i],"018,199,100,019");
+		   				Coloring(dc,i,fieldValue[i],"018,200,101,019");
 		   			}
 		      	} else if ( i == 7 ) {	//!lower row, right
 		    		if (disablelabel[7] == false) {
-		    			Coloring(dc,i,fieldValue[i],"120,199,100,019");
+		    			Coloring(dc,i,fieldValue[i],"120,200,100,019");
 		    		}
 	    		}        	
 			}	
@@ -865,6 +890,9 @@ class ExtramemView extends DatarunpremiumView {
 			} else if (mySettings.screenWidth == 416 and mySettings.screenHeight == 416) {
 				 dc.drawText(183, -4, Graphics.FONT_MEDIUM, mLaps, Graphics.TEXT_JUSTIFY_CENTER);
 				 dc.drawText(238, 2, Graphics.FONT_XTINY, "lap", Graphics.TEXT_JUSTIFY_CENTER);		
+			} else if (mySettings.screenWidth == 218 and mySettings.screenHeight == 218) {
+				 dc.drawText(96, -4, Graphics.FONT_MEDIUM, mLaps, Graphics.TEXT_JUSTIFY_CENTER);
+				 dc.drawText(125, 2, Graphics.FONT_XTINY, "lap", Graphics.TEXT_JUSTIFY_CENTER);
 			} else {	
 				 dc.drawText(103, -4, Graphics.FONT_MEDIUM, mLaps, Graphics.TEXT_JUSTIFY_CENTER);
 				 dc.drawText(140, -1, Graphics.FONT_XTINY, "lap", Graphics.TEXT_JUSTIFY_CENTER);
@@ -880,13 +908,15 @@ class ExtramemView extends DatarunpremiumView {
 			}
 	    	var strTime = AmPmhour + ":" + myTime.min.format("%02d") + " " + AmPm;
 	    	if (mySettings.screenWidth == 260 and mySettings.screenHeight == 260) {
-				dc.drawText(140, -3, Graphics.FONT_MEDIUM, strTime, Graphics.TEXT_JUSTIFY_CENTER);
+				dc.drawText(140, 1, Graphics.FONT_SMALL, strTime, Graphics.TEXT_JUSTIFY_CENTER);
 	    	} else if (mySettings.screenWidth == 280 and mySettings.screenHeight == 280) {
-				dc.drawText(150, -2, Graphics.FONT_MEDIUM, strTime, Graphics.TEXT_JUSTIFY_CENTER);
+				dc.drawText(150, 2, Graphics.FONT_SMALL, strTime, Graphics.TEXT_JUSTIFY_CENTER);
 	    	} else if (mySettings.screenWidth == 416 and mySettings.screenHeight == 416) {
-				dc.drawText(223, 0, Graphics.FONT_MEDIUM, strTime, Graphics.TEXT_JUSTIFY_CENTER);
+				dc.drawText(223, 4, Graphics.FONT_SMALL, strTime, Graphics.TEXT_JUSTIFY_CENTER);
+	    	} else if (mySettings.screenWidth == 218 and mySettings.screenHeight == 218) {
+				dc.drawText(117, 0, Graphics.FONT_SMALL, strTime, Graphics.TEXT_JUSTIFY_CENTER);
 	    	} else {
-				dc.drawText(130, -4, Graphics.FONT_MEDIUM, strTime, Graphics.TEXT_JUSTIFY_CENTER);
+				dc.drawText(130, 1, Graphics.FONT_SMALL, strTime, Graphics.TEXT_JUSTIFY_CENTER);
 			}
 		} else if (uMilClockAltern == 3) {		//! Display of metric in Clock field
 			var originalFontcolor = mColourFont;
@@ -926,6 +956,8 @@ class ExtramemView extends DatarunpremiumView {
 	    	   	dc.drawText(140, 15, Graphics.FONT_MEDIUM, CFMValue, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 	       	} else if (mySettings.screenWidth == 416 and mySettings.screenHeight == 416) {
 	    	   	dc.drawText(208, 25, Graphics.FONT_MEDIUM, CFMValue, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+	       	} else if (mySettings.screenWidth == 218 and mySettings.screenHeight == 218) {
+	    	   	dc.drawText(109, 13, Graphics.FONT_MEDIUM, CFMValue, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
 	       	} else {
 		       	dc.drawText(120, 13, Graphics.FONT_MEDIUM, CFMValue, Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
     	    }
